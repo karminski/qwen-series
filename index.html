@@ -750,16 +750,16 @@
                         <option value="${type}">${type} (${this.timelineData.statistics.types[type]})</option>
                     `).join('');
 
-                // 模型大小选项
+                // 模型大小选项 - 修复排序逻辑
                 const sizes = Object.keys(this.timelineData.statistics.sizes).sort((a, b) => {
-                    const aNum = parseFloat(a.replace('B', ''));
-                    const bNum = parseFloat(b.replace('B', ''));
+                    const aNum = parseFloat(a);
+                    const bNum = parseFloat(b);
                     return aNum - bNum;
                 });
 
                 sizeFilter.innerHTML = '<option value="">全部大小</option>' +
                     sizes.map(size => `
-                        <option value="${size}">${size} (${this.timelineData.statistics.sizes[size]})</option>
+                        <option value="${size}">${parseFloat(size)}B (${this.timelineData.statistics.sizes[size]})</option>
                     `).join('');
             }
 
@@ -976,7 +976,13 @@
 
                 this.filteredModels = models.filter(model => {
                     const typeMatch = !this.currentFilters.type || model.type === this.currentFilters.type;
-                    const sizeMatch = !this.currentFilters.size || model.size === this.currentFilters.size;
+                    
+                    // 修复大小筛选：将model.size转换为字符串进行比较
+                    let sizeMatch = !this.currentFilters.size;
+                    if (this.currentFilters.size && model.size !== null) {
+                        sizeMatch = model.size.toString() === this.currentFilters.size;
+                    }
+                    
                     return typeMatch && sizeMatch;
                 });
 
