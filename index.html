@@ -977,10 +977,11 @@
                 this.filteredModels = models.filter(model => {
                     const typeMatch = !this.currentFilters.type || model.type === this.currentFilters.type;
                     
-                    // 修复大小筛选：将model.size转换为字符串进行比较
+                    // 修复大小筛选：将筛选条件转换为数字进行比较，避免字符串格式问题
                     let sizeMatch = !this.currentFilters.size;
                     if (this.currentFilters.size && model.size !== null) {
-                        sizeMatch = model.size.toString() === this.currentFilters.size;
+                        const filterSize = parseFloat(this.currentFilters.size);
+                        sizeMatch = model.size === filterSize;
                     }
                     
                     return typeMatch && sizeMatch;
