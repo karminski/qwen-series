@@ -1,0 +1,3659 @@
+{
+  "metadata": {
+    "total_models": 357,
+    "generated_date": "2025-09-24T00:25:29.037784",
+    "source_file": "qwen_models_cleaned.csv",
+    "time_range": {
+      "start": "2023-12-13",
+      "end": "2025-09-24"
+    },
+    "types": {
+      "Text Generation": 301,
+      "Image-Text-to-Text": 26,
+      "Feature Extraction": 6,
+      "Any-to-Any": 7,
+      "Image-to-Image": 3,
+      "Text Ranking": 3,
+      "Text Classification": 9,
+      "Audio-Text-to-Text": 2
+    },
+    "sizes": {
+      "236.0": 2,
+      "8.0": 20,
+      "0.6": 14,
+      "4.0": 25,
+      "30.0": 18,
+      "80.0": 4,
+      "235.0": 12,
+      "480.0": 2,
+      "1.7": 9,
+      "14.0": 32,
+      "32.0": 31,
+      "72.0": 41,
+      "7.0": 53,
+      "3.0": 15,
+      "1.5": 23,
+      "2.0": 5,
+      "0.5": 25,
+      "57.0": 4,
+      "2.7": 3,
+      "110.0": 5,
+      "1.8": 6
+    }
+  },
+  "statistics": {
+    "time_range": {
+      "start": "2023-12-13",
+      "end": "2025-09-24"
+    },
+    "types": {
+      "Text Generation": 301,
+      "Image-Text-to-Text": 26,
+      "Feature Extraction": 6,
+      "Any-to-Any": 7,
+      "Image-to-Image": 3,
+      "Text Ranking": 3,
+      "Text Classification": 9,
+      "Audio-Text-to-Text": 2
+    },
+    "sizes": {
+      "236.0": 2,
+      "8.0": 20,
+      "0.6": 14,
+      "4.0": 25,
+      "30.0": 18,
+      "80.0": 4,
+      "235.0": 12,
+      "480.0": 2,
+      "1.7": 9,
+      "14.0": 32,
+      "32.0": 31,
+      "72.0": 41,
+      "7.0": 53,
+      "3.0": 15,
+      "1.5": 23,
+      "2.0": 5,
+      "0.5": 25,
+      "57.0": 4,
+      "2.7": 3,
+      "110.0": 5,
+      "1.8": 6
+    },
+    "total_downloads": 78734608,
+    "avg_downloads": 220545.12044817928,
+    "models_with_time": 357,
+    "models_with_size": 349
+  },
+  "models": [
+    {
+      "name": "Qwen/Qwen3-Max",
+      "size": null,
+      "type": "Text Generation",
+      "update_time": "2025-09-24",
+      "update_time_standardized": "2025-09-24",
+      "downloads": "0",
+      "downloads_number": 0,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen3-Max"
+    },
+    {
+      "name": "Qwen/Qwen3-VL-235B-A22B-Thinking",
+      "size": 236.0,
+      "type": "Image-Text-to-Text",
+      "update_time": "2025-09-24",
+      "update_time_standardized": "2025-09-24",
+      "downloads": "39",
+      "downloads_number": 39,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen3-VL-235B-A22B-Thinking"
+    },
+    {
+      "name": "Qwen/Qwen3-VL-235B-A22B-Instruct",
+      "size": 236.0,
+      "type": "Image-Text-to-Text",
+      "update_time": "2025-09-24",
+      "update_time_standardized": "2025-09-24",
+      "downloads": "23",
+      "downloads_number": 23,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen3-VL-235B-A22B-Instruct"
+    },
+    {
+      "name": "Qwen/Qwen3Guard-Stream-8B",
+      "size": 8.0,
+      "type": "Feature Extraction",
+      "update_time": "2025-09-24",
+      "update_time_standardized": "2025-09-24",
+      "downloads": "3",
+      "downloads_number": 3,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen3Guard-Stream-8B"
+    },
+    {
+      "name": "Qwen/Qwen3Guard-Stream-0.6B",
+      "size": 0.6,
+      "type": "Feature Extraction",
+      "update_time": "2025-09-24",
+      "update_time_standardized": "2025-09-24",
+      "downloads": "3",
+      "downloads_number": 3,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen3Guard-Stream-0.6B"
+    },
+    {
+      "name": "Qwen/Qwen3Guard-Stream-4B",
+      "size": 4.0,
+      "type": "Feature Extraction",
+      "update_time": "2025-09-24",
+      "update_time_standardized": "2025-09-24",
+      "downloads": "3",
+      "downloads_number": 3,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen3Guard-Stream-4B"
+    },
+    {
+      "name": "Qwen/Qwen3Guard-Gen-0.6B",
+      "size": 0.6,
+      "type": "Text Generation",
+      "update_time": "2025-09-24",
+      "update_time_standardized": "2025-09-24",
+      "downloads": "3",
+      "downloads_number": 3,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen3Guard-Gen-0.6B"
+    },
+    {
+      "name": "Qwen/Qwen3Guard-Gen-8B",
+      "size": 8.0,
+      "type": "Text Generation",
+      "update_time": "2025-09-24",
+      "update_time_standardized": "2025-09-24",
+      "downloads": "3",
+      "downloads_number": 3,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen3Guard-Gen-8B"
+    },
+    {
+      "name": "Qwen/Qwen3Guard-Gen-4B",
+      "size": 4.0,
+      "type": "Text Generation",
+      "update_time": "2025-09-24",
+      "update_time_standardized": "2025-09-24",
+      "downloads": "3",
+      "downloads_number": 3,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen3Guard-Gen-4B"
+    },
+    {
+      "name": "Qwen/Qwen3-Max-Preview",
+      "size": null,
+      "type": "Text Generation",
+      "update_time": "2025-09-24",
+      "update_time_standardized": "2025-09-24",
+      "downloads": "0",
+      "downloads_number": 0,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen3-Max-Preview"
+    },
+    {
+      "name": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+      "size": 30.0,
+      "type": "Any-to-Any",
+      "update_time": "2025-09-23",
+      "update_time_standardized": "2025-09-23",
+      "downloads": "1690",
+      "downloads_number": 1690,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen3-Omni-30B-A3B-Instruct"
+    },
+    {
+      "name": "Qwen/Qwen3-Omni-30B-A3B-Thinking",
+      "size": 30.0,
+      "type": "Any-to-Any",
+      "update_time": "2025-09-23",
+      "update_time_standardized": "2025-09-23",
+      "downloads": "3",
+      "downloads_number": 3,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen3-Omni-30B-A3B-Thinking"
+    },
+    {
+      "name": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+      "size": 30.0,
+      "type": "Any-to-Any",
+      "update_time": "2025-09-23",
+      "update_time_standardized": "2025-09-23",
+      "downloads": "3",
+      "downloads_number": 3,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen3-Omni-30B-A3B-Captioner"
+    },
+    {
+      "name": "Qwen/Qwen3-Next-80B-A3B-Thinking-FP8",
+      "size": 80.0,
+      "type": "Text Generation",
+      "update_time": "2025-09-23",
+      "update_time_standardized": "2025-09-23",
+      "downloads": "3770",
+      "downloads_number": 3770,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen3-Next-80B-A3B-Thinking-FP8"
+    },
+    {
+      "name": "Qwen/Qwen3-Next-80B-A3B-Instruct-FP8",
+      "size": 80.0,
+      "type": "Text Generation",
+      "update_time": "2025-09-23",
+      "update_time_standardized": "2025-09-23",
+      "downloads": "2890",
+      "downloads_number": 2890,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen3-Next-80B-A3B-Instruct-FP8"
+    },
+    {
+      "name": "Qwen/Qwen-Image-Edit-2509",
+      "size": null,
+      "type": "Image-to-Image",
+      "update_time": "2025-09-22",
+      "update_time_standardized": "2025-09-22",
+      "downloads": "250",
+      "downloads_number": 250,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen-Image-Edit-2509"
+    },
+    {
+      "name": "Qwen/Qwen3-Next-80B-A3B-Instruct",
+      "size": 80.0,
+      "type": "Text Generation",
+      "update_time": "2025-09-18",
+      "update_time_standardized": "2025-09-18",
+      "downloads": "1020000",
+      "downloads_number": 1020000,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen3-Next-80B-A3B-Instruct"
+    },
+    {
+      "name": "Qwen/Qwen3-4B-Instruct-2507-FP8",
+      "size": 4.0,
+      "type": "Text Generation",
+      "update_time": "2025-09-17",
+      "update_time_standardized": "2025-09-17",
+      "downloads": "43100",
+      "downloads_number": 43100,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen3-4B-Instruct-2507-FP8"
+    },
+    {
+      "name": "Qwen/Qwen3-4B-Instruct-2507",
+      "size": 4.0,
+      "type": "Text Generation",
+      "update_time": "2025-09-17",
+      "update_time_standardized": "2025-09-17",
+      "downloads": "1510000",
+      "downloads_number": 1510000,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen3-4B-Instruct-2507"
+    },
+    {
+      "name": "Qwen/Qwen3-30B-A3B-Instruct-2507",
+      "size": 30.0,
+      "type": "Text Generation",
+      "update_time": "2025-09-17",
+      "update_time_standardized": "2025-09-17",
+      "downloads": "1200000",
+      "downloads_number": 1200000,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen3-30B-A3B-Instruct-2507"
+    },
+    {
+      "name": "Qwen/Qwen3-30B-A3B-Instruct-2507-FP8",
+      "size": 30.0,
+      "type": "Text Generation",
+      "update_time": "2025-09-17",
+      "update_time_standardized": "2025-09-17",
+      "downloads": "148000",
+      "downloads_number": 148000,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen3-30B-A3B-Instruct-2507-FP8"
+    },
+    {
+      "name": "Qwen/Qwen3-235B-A22B-Instruct-2507-FP8",
+      "size": 235.0,
+      "type": "Text Generation",
+      "update_time": "2025-09-17",
+      "update_time_standardized": "2025-09-17",
+      "downloads": "164000",
+      "downloads_number": 164000,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen3-235B-A22B-Instruct-2507-FP8"
+    },
+    {
+      "name": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+      "size": 235.0,
+      "type": "Text Generation",
+      "update_time": "2025-09-17",
+      "update_time_standardized": "2025-09-17",
+      "downloads": "103000",
+      "downloads_number": 103000,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen3-235B-A22B-Instruct-2507"
+    },
+    {
+      "name": "Qwen/Qwen3-Next-80B-A3B-Thinking",
+      "size": 80.0,
+      "type": "Text Generation",
+      "update_time": "2025-09-16",
+      "update_time_standardized": "2025-09-16",
+      "downloads": "464000",
+      "downloads_number": 464000,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen3-Next-80B-A3B-Thinking"
+    },
+    {
+      "name": "Qwen/Qwen3-4B-MLX-4bit",
+      "size": 4.0,
+      "type": "Text Generation",
+      "update_time": "2025-08-30",
+      "update_time_standardized": "2025-08-30",
+      "downloads": "24200",
+      "downloads_number": 24200,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen3-4B-MLX-4bit"
+    },
+    {
+      "name": "Qwen/Qwen-Image-Edit",
+      "size": null,
+      "type": "Image-to-Image",
+      "update_time": "2025-08-25",
+      "update_time_standardized": "2025-08-25",
+      "downloads": "285000",
+      "downloads_number": 285000,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen-Image-Edit"
+    },
+    {
+      "name": "Qwen/Qwen3-Coder-480B-A35B-Instruct-FP8",
+      "size": 480.0,
+      "type": "Text Generation",
+      "update_time": "2025-08-21",
+      "update_time_standardized": "2025-08-21",
+      "downloads": "129000",
+      "downloads_number": 129000,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen3-Coder-480B-A35B-Instruct-FP8"
+    },
+    {
+      "name": "Qwen/Qwen3-Coder-30B-A3B-Instruct-FP8",
+      "size": 30.0,
+      "type": "Text Generation",
+      "update_time": "2025-08-21",
+      "update_time_standardized": "2025-08-21",
+      "downloads": "88600",
+      "downloads_number": 88600,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen3-Coder-30B-A3B-Instruct-FP8"
+    },
+    {
+      "name": "Qwen/Qwen3-Coder-30B-A3B-Instruct",
+      "size": 30.0,
+      "type": "Text Generation",
+      "update_time": "2025-08-21",
+      "update_time_standardized": "2025-08-21",
+      "downloads": "386000",
+      "downloads_number": 386000,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen3-Coder-30B-A3B-Instruct"
+    },
+    {
+      "name": "Qwen/Qwen3-Coder-480B-A35B-Instruct",
+      "size": 480.0,
+      "type": "Text Generation",
+      "update_time": "2025-08-21",
+      "update_time_standardized": "2025-08-21",
+      "downloads": "258000",
+      "downloads_number": 258000,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen3-Coder-480B-A35B-Instruct"
+    },
+    {
+      "name": "Qwen/Qwen-Image",
+      "size": null,
+      "type": "Image-to-Image",
+      "update_time": "2025-08-18",
+      "update_time_standardized": "2025-08-18",
+      "downloads": "124000",
+      "downloads_number": 124000,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen-Image"
+    },
+    {
+      "name": "Qwen/Qwen3-30B-A3B-Thinking-2507",
+      "size": 30.0,
+      "type": "Text Generation",
+      "update_time": "2025-08-17",
+      "update_time_standardized": "2025-08-17",
+      "downloads": "189000",
+      "downloads_number": 189000,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen3-30B-A3B-Thinking-2507"
+    },
+    {
+      "name": "Qwen/Qwen3-235B-A22B-Thinking-2507",
+      "size": 235.0,
+      "type": "Text Generation",
+      "update_time": "2025-08-17",
+      "update_time_standardized": "2025-08-17",
+      "downloads": "67400",
+      "downloads_number": 67400,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen3-235B-A22B-Thinking-2507"
+    },
+    {
+      "name": "Qwen/Qwen3-4B-Thinking-2507",
+      "size": 4.0,
+      "type": "Text Generation",
+      "update_time": "2025-08-06",
+      "update_time_standardized": "2025-08-06",
+      "downloads": "327000",
+      "downloads_number": 327000,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen3-4B-Thinking-2507"
+    },
+    {
+      "name": "Qwen/Qwen3-4B-Thinking-2507-FP8",
+      "size": 4.0,
+      "type": "Text Generation",
+      "update_time": "2025-08-06",
+      "update_time_standardized": "2025-08-06",
+      "downloads": "208000",
+      "downloads_number": 208000,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen3-4B-Thinking-2507-FP8"
+    },
+    {
+      "name": "Qwen/Qwen3-Embedding-4B-GGUF",
+      "size": 4.0,
+      "type": "Text Generation",
+      "update_time": "2025-08-03",
+      "update_time_standardized": "2025-08-03",
+      "downloads": "11200",
+      "downloads_number": 11200,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen3-Embedding-4B-GGUF"
+    },
+    {
+      "name": "Qwen/Qwen3-30B-A3B-Thinking-2507-FP8",
+      "size": 30.0,
+      "type": "Text Generation",
+      "update_time": "2025-07-30",
+      "update_time_standardized": "2025-07-30",
+      "downloads": "25800",
+      "downloads_number": 25800,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen3-30B-A3B-Thinking-2507-FP8"
+    },
+    {
+      "name": "Qwen/Qwen3-235B-A22B-Thinking-2507-FP8",
+      "size": 235.0,
+      "type": "Text Generation",
+      "update_time": "2025-07-30",
+      "update_time_standardized": "2025-07-30",
+      "downloads": "30500",
+      "downloads_number": 30500,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen3-235B-A22B-Thinking-2507-FP8"
+    },
+    {
+      "name": "Qwen/Qwen3-0.6B-MLX-4bit",
+      "size": 0.6,
+      "type": "Text Generation",
+      "update_time": "2025-07-29",
+      "update_time_standardized": "2025-07-29",
+      "downloads": "1690",
+      "downloads_number": 1690,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen3-0.6B-MLX-4bit"
+    },
+    {
+      "name": "Qwen/Qwen3-1.7B-Base",
+      "size": 1.7,
+      "type": "Text Generation",
+      "update_time": "2025-07-26",
+      "update_time_standardized": "2025-07-26",
+      "downloads": "217000",
+      "downloads_number": 217000,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen3-1.7B-Base"
+    },
+    {
+      "name": "Qwen/Qwen3-14B",
+      "size": 14.0,
+      "type": "Text Generation",
+      "update_time": "2025-07-26",
+      "update_time_standardized": "2025-07-26",
+      "downloads": "1150000",
+      "downloads_number": 1150000,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen3-14B"
+    },
+    {
+      "name": "Qwen/Qwen3-8B",
+      "size": 8.0,
+      "type": "Text Generation",
+      "update_time": "2025-07-26",
+      "update_time_standardized": "2025-07-26",
+      "downloads": "2049999",
+      "downloads_number": 2049999,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen3-8B"
+    },
+    {
+      "name": "Qwen/Qwen3-4B",
+      "size": 4.0,
+      "type": "Text Generation",
+      "update_time": "2025-07-26",
+      "update_time_standardized": "2025-07-26",
+      "downloads": "1280000",
+      "downloads_number": 1280000,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen3-4B"
+    },
+    {
+      "name": "Qwen/Qwen3-1.7B",
+      "size": 1.7,
+      "type": "Text Generation",
+      "update_time": "2025-07-26",
+      "update_time_standardized": "2025-07-26",
+      "downloads": "917000",
+      "downloads_number": 917000,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen3-1.7B"
+    },
+    {
+      "name": "Qwen/Qwen3-0.6B",
+      "size": 0.6,
+      "type": "Text Generation",
+      "update_time": "2025-07-26",
+      "update_time_standardized": "2025-07-26",
+      "downloads": "6080000",
+      "downloads_number": 6080000,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen3-0.6B"
+    },
+    {
+      "name": "Qwen/Qwen3-235B-A22B-FP8",
+      "size": 235.0,
+      "type": "Text Generation",
+      "update_time": "2025-07-26",
+      "update_time_standardized": "2025-07-26",
+      "downloads": "99300",
+      "downloads_number": 99300,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen3-235B-A22B-FP8"
+    },
+    {
+      "name": "Qwen/Qwen3-30B-A3B-FP8",
+      "size": 30.0,
+      "type": "Text Generation",
+      "update_time": "2025-07-26",
+      "update_time_standardized": "2025-07-26",
+      "downloads": "139000",
+      "downloads_number": 139000,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen3-30B-A3B-FP8"
+    },
+    {
+      "name": "Qwen/Qwen3-32B-FP8",
+      "size": 32.0,
+      "type": "Text Generation",
+      "update_time": "2025-07-26",
+      "update_time_standardized": "2025-07-26",
+      "downloads": "66000",
+      "downloads_number": 66000,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen3-32B-FP8"
+    },
+    {
+      "name": "Qwen/Qwen3-14B-FP8",
+      "size": 14.0,
+      "type": "Text Generation",
+      "update_time": "2025-07-26",
+      "update_time_standardized": "2025-07-26",
+      "downloads": "57500",
+      "downloads_number": 57500,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen3-14B-FP8"
+    },
+    {
+      "name": "Qwen/Qwen3-8B-FP8",
+      "size": 8.0,
+      "type": "Text Generation",
+      "update_time": "2025-07-26",
+      "update_time_standardized": "2025-07-26",
+      "downloads": "44400",
+      "downloads_number": 44400,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen3-8B-FP8"
+    },
+    {
+      "name": "Qwen/Qwen3-4B-FP8",
+      "size": 4.0,
+      "type": "Text Generation",
+      "update_time": "2025-07-26",
+      "update_time_standardized": "2025-07-26",
+      "downloads": "55300",
+      "downloads_number": 55300,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen3-4B-FP8"
+    },
+    {
+      "name": "Qwen/Qwen3-1.7B-FP8",
+      "size": 1.7,
+      "type": "Text Generation",
+      "update_time": "2025-07-26",
+      "update_time_standardized": "2025-07-26",
+      "downloads": "5410",
+      "downloads_number": 5410,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen3-1.7B-FP8"
+    },
+    {
+      "name": "Qwen/Qwen3-0.6B-FP8",
+      "size": 0.6,
+      "type": "Text Generation",
+      "update_time": "2025-07-26",
+      "update_time_standardized": "2025-07-26",
+      "downloads": "46800",
+      "downloads_number": 46800,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen3-0.6B-FP8"
+    },
+    {
+      "name": "Qwen/Qwen3-0.6B-Base",
+      "size": 0.6,
+      "type": "Text Generation",
+      "update_time": "2025-07-26",
+      "update_time_standardized": "2025-07-26",
+      "downloads": "111000",
+      "downloads_number": 111000,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen3-0.6B-Base"
+    },
+    {
+      "name": "Qwen/Qwen3-4B-Base",
+      "size": 4.0,
+      "type": "Text Generation",
+      "update_time": "2025-07-26",
+      "update_time_standardized": "2025-07-26",
+      "downloads": "505000",
+      "downloads_number": 505000,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen3-4B-Base"
+    },
+    {
+      "name": "Qwen/Qwen3-14B-Base",
+      "size": 14.0,
+      "type": "Text Generation",
+      "update_time": "2025-07-26",
+      "update_time_standardized": "2025-07-26",
+      "downloads": "206000",
+      "downloads_number": 206000,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen3-14B-Base"
+    },
+    {
+      "name": "Qwen/Qwen3-30B-A3B-Base",
+      "size": 30.0,
+      "type": "Text Generation",
+      "update_time": "2025-07-26",
+      "update_time_standardized": "2025-07-26",
+      "downloads": "151000",
+      "downloads_number": 151000,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen3-30B-A3B-Base"
+    },
+    {
+      "name": "Qwen/Qwen3-32B",
+      "size": 32.0,
+      "type": "Text Generation",
+      "update_time": "2025-07-26",
+      "update_time_standardized": "2025-07-26",
+      "downloads": "2970000",
+      "downloads_number": 2970000,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen3-32B"
+    },
+    {
+      "name": "Qwen/Qwen3-30B-A3B",
+      "size": 30.0,
+      "type": "Text Generation",
+      "update_time": "2025-07-26",
+      "update_time_standardized": "2025-07-26",
+      "downloads": "275000",
+      "downloads_number": 275000,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen3-30B-A3B"
+    },
+    {
+      "name": "Qwen/Qwen3-235B-A22B",
+      "size": 235.0,
+      "type": "Text Generation",
+      "update_time": "2025-07-26",
+      "update_time_standardized": "2025-07-26",
+      "downloads": "181000",
+      "downloads_number": 181000,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen3-235B-A22B"
+    },
+    {
+      "name": "Qwen/Qwen3-Embedding-8B-GGUF",
+      "size": 8.0,
+      "type": "Text Generation",
+      "update_time": "2025-07-15",
+      "update_time_standardized": "2025-07-15",
+      "downloads": "13500",
+      "downloads_number": 13500,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen3-Embedding-8B-GGUF"
+    },
+    {
+      "name": "Qwen/Qwen3-Embedding-0.6B-GGUF",
+      "size": 0.6,
+      "type": "Text Generation",
+      "update_time": "2025-07-14",
+      "update_time_standardized": "2025-07-14",
+      "downloads": "33600",
+      "downloads_number": 33600,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen3-Embedding-0.6B-GGUF"
+    },
+    {
+      "name": "Qwen/Qwen3-14B-MLX-bf16",
+      "size": 14.0,
+      "type": "Text Generation",
+      "update_time": "2025-07-07",
+      "update_time_standardized": "2025-07-07",
+      "downloads": "3",
+      "downloads_number": 3,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen3-14B-MLX-bf16"
+    },
+    {
+      "name": "Qwen/Qwen3-Embedding-8B",
+      "size": 8.0,
+      "type": "Feature Extraction",
+      "update_time": "2025-07-07",
+      "update_time_standardized": "2025-07-07",
+      "downloads": "486000",
+      "downloads_number": 486000,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen3-Embedding-8B"
+    },
+    {
+      "name": "Qwen/Qwen3-4B-MLX-6bit",
+      "size": 4.0,
+      "type": "Text Generation",
+      "update_time": "2025-07-07",
+      "update_time_standardized": "2025-07-07",
+      "downloads": "3",
+      "downloads_number": 3,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen3-4B-MLX-6bit"
+    },
+    {
+      "name": "Qwen/Qwen3-4B-MLX-8bit",
+      "size": 4.0,
+      "type": "Text Generation",
+      "update_time": "2025-07-07",
+      "update_time_standardized": "2025-07-07",
+      "downloads": "3",
+      "downloads_number": 3,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen3-4B-MLX-8bit"
+    },
+    {
+      "name": "Qwen/Qwen3-4B-MLX-bf16",
+      "size": 4.0,
+      "type": "Text Generation",
+      "update_time": "2025-07-07",
+      "update_time_standardized": "2025-07-07",
+      "downloads": "3",
+      "downloads_number": 3,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen3-4B-MLX-bf16"
+    },
+    {
+      "name": "Qwen/Qwen3-0.6B-MLX-6bit",
+      "size": 0.6,
+      "type": "Text Generation",
+      "update_time": "2025-07-07",
+      "update_time_standardized": "2025-07-07",
+      "downloads": "3",
+      "downloads_number": 3,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen3-0.6B-MLX-6bit"
+    },
+    {
+      "name": "Qwen/Qwen3-0.6B-MLX-8bit",
+      "size": 0.6,
+      "type": "Text Generation",
+      "update_time": "2025-07-07",
+      "update_time_standardized": "2025-07-07",
+      "downloads": "3",
+      "downloads_number": 3,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen3-0.6B-MLX-8bit"
+    },
+    {
+      "name": "Qwen/Qwen3-0.6B-MLX-bf16",
+      "size": 0.6,
+      "type": "Text Generation",
+      "update_time": "2025-07-07",
+      "update_time_standardized": "2025-07-07",
+      "downloads": "1520",
+      "downloads_number": 1520,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen3-0.6B-MLX-bf16"
+    },
+    {
+      "name": "Qwen/Qwen3-1.7B-MLX-4bit",
+      "size": 1.7,
+      "type": "Text Generation",
+      "update_time": "2025-07-07",
+      "update_time_standardized": "2025-07-07",
+      "downloads": "3",
+      "downloads_number": 3,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen3-1.7B-MLX-4bit"
+    },
+    {
+      "name": "Qwen/Qwen3-1.7B-MLX-6bit",
+      "size": 1.7,
+      "type": "Text Generation",
+      "update_time": "2025-07-07",
+      "update_time_standardized": "2025-07-07",
+      "downloads": "1100",
+      "downloads_number": 1100,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen3-1.7B-MLX-6bit"
+    },
+    {
+      "name": "Qwen/Qwen3-1.7B-MLX-8bit",
+      "size": 1.7,
+      "type": "Text Generation",
+      "update_time": "2025-07-07",
+      "update_time_standardized": "2025-07-07",
+      "downloads": "3",
+      "downloads_number": 3,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen3-1.7B-MLX-8bit"
+    },
+    {
+      "name": "Qwen/Qwen3-1.7B-MLX-bf16",
+      "size": 1.7,
+      "type": "Text Generation",
+      "update_time": "2025-07-07",
+      "update_time_standardized": "2025-07-07",
+      "downloads": "3",
+      "downloads_number": 3,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen3-1.7B-MLX-bf16"
+    },
+    {
+      "name": "Qwen/Qwen3-8B-MLX-4bit",
+      "size": 8.0,
+      "type": "Text Generation",
+      "update_time": "2025-07-07",
+      "update_time_standardized": "2025-07-07",
+      "downloads": "3",
+      "downloads_number": 3,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen3-8B-MLX-4bit"
+    },
+    {
+      "name": "Qwen/Qwen3-8B-MLX-6bit",
+      "size": 8.0,
+      "type": "Text Generation",
+      "update_time": "2025-07-07",
+      "update_time_standardized": "2025-07-07",
+      "downloads": "3",
+      "downloads_number": 3,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen3-8B-MLX-6bit"
+    },
+    {
+      "name": "Qwen/Qwen3-8B-MLX-8bit",
+      "size": 8.0,
+      "type": "Text Generation",
+      "update_time": "2025-07-07",
+      "update_time_standardized": "2025-07-07",
+      "downloads": "3",
+      "downloads_number": 3,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen3-8B-MLX-8bit"
+    },
+    {
+      "name": "Qwen/Qwen3-8B-MLX-bf16",
+      "size": 8.0,
+      "type": "Text Generation",
+      "update_time": "2025-07-07",
+      "update_time_standardized": "2025-07-07",
+      "downloads": "1180",
+      "downloads_number": 1180,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen3-8B-MLX-bf16"
+    },
+    {
+      "name": "Qwen/Qwen3-14B-MLX-6bit",
+      "size": 14.0,
+      "type": "Text Generation",
+      "update_time": "2025-07-07",
+      "update_time_standardized": "2025-07-07",
+      "downloads": "3",
+      "downloads_number": 3,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen3-14B-MLX-6bit"
+    },
+    {
+      "name": "Qwen/Qwen3-14B-MLX-8bit",
+      "size": 14.0,
+      "type": "Text Generation",
+      "update_time": "2025-07-07",
+      "update_time_standardized": "2025-07-07",
+      "downloads": "3",
+      "downloads_number": 3,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen3-14B-MLX-8bit"
+    },
+    {
+      "name": "Qwen/Qwen3-14B-MLX-4bit",
+      "size": 14.0,
+      "type": "Text Generation",
+      "update_time": "2025-07-07",
+      "update_time_standardized": "2025-07-07",
+      "downloads": "3",
+      "downloads_number": 3,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen3-14B-MLX-4bit"
+    },
+    {
+      "name": "Qwen/Qwen3-32B-MLX-bf16",
+      "size": 32.0,
+      "type": "Text Generation",
+      "update_time": "2025-07-07",
+      "update_time_standardized": "2025-07-07",
+      "downloads": "3",
+      "downloads_number": 3,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen3-32B-MLX-bf16"
+    },
+    {
+      "name": "Qwen/Qwen3-32B-MLX-8bit",
+      "size": 32.0,
+      "type": "Text Generation",
+      "update_time": "2025-07-07",
+      "update_time_standardized": "2025-07-07",
+      "downloads": "3",
+      "downloads_number": 3,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen3-32B-MLX-8bit"
+    },
+    {
+      "name": "Qwen/Qwen3-32B-MLX-6bit",
+      "size": 32.0,
+      "type": "Text Generation",
+      "update_time": "2025-07-07",
+      "update_time_standardized": "2025-07-07",
+      "downloads": "3",
+      "downloads_number": 3,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen3-32B-MLX-6bit"
+    },
+    {
+      "name": "Qwen/Qwen3-32B-MLX-4bit",
+      "size": 32.0,
+      "type": "Text Generation",
+      "update_time": "2025-07-07",
+      "update_time_standardized": "2025-07-07",
+      "downloads": "3",
+      "downloads_number": 3,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen3-32B-MLX-4bit"
+    },
+    {
+      "name": "Qwen/Qwen3-30B-A3B-MLX-bf16",
+      "size": 30.0,
+      "type": "Text Generation",
+      "update_time": "2025-07-07",
+      "update_time_standardized": "2025-07-07",
+      "downloads": "3",
+      "downloads_number": 3,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen3-30B-A3B-MLX-bf16"
+    },
+    {
+      "name": "Qwen/Qwen3-30B-A3B-MLX-8bit",
+      "size": 30.0,
+      "type": "Text Generation",
+      "update_time": "2025-07-07",
+      "update_time_standardized": "2025-07-07",
+      "downloads": "3",
+      "downloads_number": 3,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen3-30B-A3B-MLX-8bit"
+    },
+    {
+      "name": "Qwen/Qwen3-30B-A3B-MLX-6bit",
+      "size": 30.0,
+      "type": "Text Generation",
+      "update_time": "2025-07-07",
+      "update_time_standardized": "2025-07-07",
+      "downloads": "3",
+      "downloads_number": 3,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen3-30B-A3B-MLX-6bit"
+    },
+    {
+      "name": "Qwen/Qwen3-30B-A3B-MLX-4bit",
+      "size": 30.0,
+      "type": "Text Generation",
+      "update_time": "2025-07-07",
+      "update_time_standardized": "2025-07-07",
+      "downloads": "3",
+      "downloads_number": 3,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen3-30B-A3B-MLX-4bit"
+    },
+    {
+      "name": "Qwen/Qwen3-235B-A22B-MLX-bf16",
+      "size": 235.0,
+      "type": "Text Generation",
+      "update_time": "2025-07-07",
+      "update_time_standardized": "2025-07-07",
+      "downloads": "3",
+      "downloads_number": 3,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen3-235B-A22B-MLX-bf16"
+    },
+    {
+      "name": "Qwen/Qwen3-235B-A22B-MLX-6bit",
+      "size": 235.0,
+      "type": "Text Generation",
+      "update_time": "2025-07-07",
+      "update_time_standardized": "2025-07-07",
+      "downloads": "3",
+      "downloads_number": 3,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen3-235B-A22B-MLX-6bit"
+    },
+    {
+      "name": "Qwen/Qwen3-235B-A22B-MLX-4bit",
+      "size": 235.0,
+      "type": "Text Generation",
+      "update_time": "2025-07-07",
+      "update_time_standardized": "2025-07-07",
+      "downloads": "1290",
+      "downloads_number": 1290,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen3-235B-A22B-MLX-4bit"
+    },
+    {
+      "name": "Qwen/Qwen3-235B-A22B-MLX-8bit",
+      "size": 235.0,
+      "type": "Text Generation",
+      "update_time": "2025-07-07",
+      "update_time_standardized": "2025-07-07",
+      "downloads": "3",
+      "downloads_number": 3,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen3-235B-A22B-MLX-8bit"
+    },
+    {
+      "name": "Qwen/Qwen3-Embedding-0.6B",
+      "size": 0.6,
+      "type": "Feature Extraction",
+      "update_time": "2025-06-20",
+      "update_time_standardized": "2025-06-20",
+      "downloads": "3400000",
+      "downloads_number": 3400000,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen3-Embedding-0.6B"
+    },
+    {
+      "name": "Qwen/Qwen3-Embedding-4B",
+      "size": 4.0,
+      "type": "Feature Extraction",
+      "update_time": "2025-06-20",
+      "update_time_standardized": "2025-06-20",
+      "downloads": "463000",
+      "downloads_number": 463000,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen3-Embedding-4B"
+    },
+    {
+      "name": "Qwen/Qwen3-Reranker-8B",
+      "size": 8.0,
+      "type": "Text Ranking",
+      "update_time": "2025-06-09",
+      "update_time_standardized": "2025-06-09",
+      "downloads": "61900",
+      "downloads_number": 61900,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen3-Reranker-8B"
+    },
+    {
+      "name": "Qwen/Qwen3-Reranker-4B",
+      "size": 4.0,
+      "type": "Text Ranking",
+      "update_time": "2025-06-09",
+      "update_time_standardized": "2025-06-09",
+      "downloads": "52800",
+      "downloads_number": 52800,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen3-Reranker-4B"
+    },
+    {
+      "name": "Qwen/Qwen3-Reranker-0.6B",
+      "size": 0.6,
+      "type": "Text Ranking",
+      "update_time": "2025-06-09",
+      "update_time_standardized": "2025-06-09",
+      "downloads": "223000",
+      "downloads_number": 223000,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen3-Reranker-0.6B"
+    },
+    {
+      "name": "Qwen/Qwen2.5-VL-72B-Instruct",
+      "size": 72.0,
+      "type": "Image-Text-to-Text",
+      "update_time": "2025-06-06",
+      "update_time_standardized": "2025-06-06",
+      "downloads": "665000",
+      "downloads_number": 665000,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2.5-VL-72B-Instruct"
+    },
+    {
+      "name": "Qwen/Qwen3-4B-GGUF",
+      "size": 4.0,
+      "type": "Text Generation",
+      "update_time": "2025-05-21",
+      "update_time_standardized": "2025-05-21",
+      "downloads": "12400",
+      "downloads_number": 12400,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen3-4B-GGUF"
+    },
+    {
+      "name": "Qwen/Qwen3-8B-GGUF",
+      "size": 8.0,
+      "type": "Text Generation",
+      "update_time": "2025-05-21",
+      "update_time_standardized": "2025-05-21",
+      "downloads": "26100",
+      "downloads_number": 26100,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen3-8B-GGUF"
+    },
+    {
+      "name": "Qwen/Qwen3-235B-A22B-GGUF",
+      "size": 235.0,
+      "type": "Text Generation",
+      "update_time": "2025-05-21",
+      "update_time_standardized": "2025-05-21",
+      "downloads": "3",
+      "downloads_number": 3,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen3-235B-A22B-GGUF"
+    },
+    {
+      "name": "Qwen/Qwen3-30B-A3B-GGUF",
+      "size": 30.0,
+      "type": "Text Generation",
+      "update_time": "2025-05-21",
+      "update_time_standardized": "2025-05-21",
+      "downloads": "5960",
+      "downloads_number": 5960,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen3-30B-A3B-GGUF"
+    },
+    {
+      "name": "Qwen/Qwen3-14B-AWQ",
+      "size": 14.0,
+      "type": "Text Generation",
+      "update_time": "2025-05-21",
+      "update_time_standardized": "2025-05-21",
+      "downloads": "273000",
+      "downloads_number": 273000,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen3-14B-AWQ"
+    },
+    {
+      "name": "Qwen/Qwen3-32B-AWQ",
+      "size": 32.0,
+      "type": "Text Generation",
+      "update_time": "2025-05-21",
+      "update_time_standardized": "2025-05-21",
+      "downloads": "355000",
+      "downloads_number": 355000,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen3-32B-AWQ"
+    },
+    {
+      "name": "Qwen/Qwen3-4B-AWQ",
+      "size": 4.0,
+      "type": "Text Generation",
+      "update_time": "2025-05-21",
+      "update_time_standardized": "2025-05-21",
+      "downloads": "156000",
+      "downloads_number": 156000,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen3-4B-AWQ"
+    },
+    {
+      "name": "Qwen/Qwen3-8B-AWQ",
+      "size": 8.0,
+      "type": "Text Generation",
+      "update_time": "2025-05-21",
+      "update_time_standardized": "2025-05-21",
+      "downloads": "163000",
+      "downloads_number": 163000,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen3-8B-AWQ"
+    },
+    {
+      "name": "Qwen/Qwen3-235B-A22B-GPTQ-Int4",
+      "size": 235.0,
+      "type": "Text Generation",
+      "update_time": "2025-05-21",
+      "update_time_standardized": "2025-05-21",
+      "downloads": "2330",
+      "downloads_number": 2330,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen3-235B-A22B-GPTQ-Int4"
+    },
+    {
+      "name": "Qwen/Qwen3-30B-A3B-GPTQ-Int4",
+      "size": 30.0,
+      "type": "Text Generation",
+      "update_time": "2025-05-21",
+      "update_time_standardized": "2025-05-21",
+      "downloads": "128000",
+      "downloads_number": 128000,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen3-30B-A3B-GPTQ-Int4"
+    },
+    {
+      "name": "Qwen/Qwen3-0.6B-GPTQ-Int8",
+      "size": 0.6,
+      "type": "Text Generation",
+      "update_time": "2025-05-21",
+      "update_time_standardized": "2025-05-21",
+      "downloads": "3130",
+      "downloads_number": 3130,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen3-0.6B-GPTQ-Int8"
+    },
+    {
+      "name": "Qwen/Qwen3-1.7B-GPTQ-Int8",
+      "size": 1.7,
+      "type": "Text Generation",
+      "update_time": "2025-05-21",
+      "update_time_standardized": "2025-05-21",
+      "downloads": "2660",
+      "downloads_number": 2660,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen3-1.7B-GPTQ-Int8"
+    },
+    {
+      "name": "Qwen/Qwen3-8B-Base",
+      "size": 8.0,
+      "type": "Text Generation",
+      "update_time": "2025-05-21",
+      "update_time_standardized": "2025-05-21",
+      "downloads": "193000",
+      "downloads_number": 193000,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen3-8B-Base"
+    },
+    {
+      "name": "Qwen/WorldPM-72B-HelpSteer2",
+      "size": 72.0,
+      "type": "Text Classification",
+      "update_time": "2025-05-17",
+      "update_time_standardized": "2025-05-17",
+      "downloads": "72",
+      "downloads_number": 72,
+      "huggingface_url": "https://huggingface.co/Qwen/WorldPM-72B-HelpSteer2"
+    },
+    {
+      "name": "Qwen/WorldPM-72B-UltraFeedback",
+      "size": 72.0,
+      "type": "Text Classification",
+      "update_time": "2025-05-17",
+      "update_time_standardized": "2025-05-17",
+      "downloads": "1710",
+      "downloads_number": 1710,
+      "huggingface_url": "https://huggingface.co/Qwen/WorldPM-72B-UltraFeedback"
+    },
+    {
+      "name": "Qwen/WorldPM-72B-RLHFLow",
+      "size": 72.0,
+      "type": "Text Classification",
+      "update_time": "2025-05-17",
+      "update_time_standardized": "2025-05-17",
+      "downloads": "72",
+      "downloads_number": 72,
+      "huggingface_url": "https://huggingface.co/Qwen/WorldPM-72B-RLHFLow"
+    },
+    {
+      "name": "Qwen/WorldPM-72B",
+      "size": 72.0,
+      "type": "Text Classification",
+      "update_time": "2025-05-17",
+      "update_time_standardized": "2025-05-17",
+      "downloads": "1170",
+      "downloads_number": 1170,
+      "huggingface_url": "https://huggingface.co/Qwen/WorldPM-72B"
+    },
+    {
+      "name": "Qwen/Qwen2.5-Omni-7B-AWQ",
+      "size": 7.0,
+      "type": "Any-to-Any",
+      "update_time": "2025-05-15",
+      "update_time_standardized": "2025-05-15",
+      "downloads": "24200",
+      "downloads_number": 24200,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2.5-Omni-7B-AWQ"
+    },
+    {
+      "name": "Qwen/Qwen2.5-Omni-7B-GPTQ-Int4",
+      "size": 7.0,
+      "type": "Any-to-Any",
+      "update_time": "2025-05-15",
+      "update_time_standardized": "2025-05-15",
+      "downloads": "2",
+      "downloads_number": 2,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2.5-Omni-7B-GPTQ-Int4"
+    },
+    {
+      "name": "Qwen/Qwen3-32B-GGUF",
+      "size": 32.0,
+      "type": "Text Generation",
+      "update_time": "2025-05-09",
+      "update_time_standardized": "2025-05-09",
+      "downloads": "7360",
+      "downloads_number": 7360,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen3-32B-GGUF"
+    },
+    {
+      "name": "Qwen/Qwen3-14B-GGUF",
+      "size": 14.0,
+      "type": "Text Generation",
+      "update_time": "2025-05-09",
+      "update_time_standardized": "2025-05-09",
+      "downloads": "10800",
+      "downloads_number": 10800,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen3-14B-GGUF"
+    },
+    {
+      "name": "Qwen/Qwen3-1.7B-GGUF",
+      "size": 1.7,
+      "type": "Text Generation",
+      "update_time": "2025-05-09",
+      "update_time_standardized": "2025-05-09",
+      "downloads": "4000",
+      "downloads_number": 4000,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen3-1.7B-GGUF"
+    },
+    {
+      "name": "Qwen/Qwen3-0.6B-GGUF",
+      "size": 0.6,
+      "type": "Text Generation",
+      "update_time": "2025-05-09",
+      "update_time_standardized": "2025-05-09",
+      "downloads": "13400",
+      "downloads_number": 13400,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen3-0.6B-GGUF"
+    },
+    {
+      "name": "Qwen/Qwen2.5-Omni-7B",
+      "size": 7.0,
+      "type": "Any-to-Any",
+      "update_time": "2025-04-30",
+      "update_time_standardized": "2025-04-30",
+      "downloads": "176000",
+      "downloads_number": 176000,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2.5-Omni-7B"
+    },
+    {
+      "name": "Qwen/Qwen2.5-Omni-3B",
+      "size": 3.0,
+      "type": "Any-to-Any",
+      "update_time": "2025-04-30",
+      "update_time_standardized": "2025-04-30",
+      "downloads": "362000",
+      "downloads_number": 362000,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2.5-Omni-3B"
+    },
+    {
+      "name": "Qwen/Qwen2.5-VL-32B-Instruct",
+      "size": 32.0,
+      "type": "Image-Text-to-Text",
+      "update_time": "2025-04-14",
+      "update_time_standardized": "2025-04-14",
+      "downloads": "668000",
+      "downloads_number": 668000,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2.5-VL-32B-Instruct"
+    },
+    {
+      "name": "Qwen/Qwen2.5-VL-32B-Instruct-AWQ",
+      "size": 32.0,
+      "type": "Image-Text-to-Text",
+      "update_time": "2025-04-06",
+      "update_time_standardized": "2025-04-06",
+      "downloads": "66200",
+      "downloads_number": 66200,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2.5-VL-32B-Instruct-AWQ"
+    },
+    {
+      "name": "Qwen/Qwen2.5-VL-7B-Instruct-AWQ",
+      "size": 7.0,
+      "type": "Image-Text-to-Text",
+      "update_time": "2025-04-06",
+      "update_time_standardized": "2025-04-06",
+      "downloads": "719000",
+      "downloads_number": 719000,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2.5-VL-7B-Instruct-AWQ"
+    },
+    {
+      "name": "Qwen/Qwen2.5-VL-3B-Instruct-AWQ",
+      "size": 3.0,
+      "type": "Image-Text-to-Text",
+      "update_time": "2025-04-06",
+      "update_time_standardized": "2025-04-06",
+      "downloads": "373000",
+      "downloads_number": 373000,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2.5-VL-3B-Instruct-AWQ"
+    },
+    {
+      "name": "Qwen/Qwen2.5-VL-3B-Instruct",
+      "size": 3.0,
+      "type": "Image-Text-to-Text",
+      "update_time": "2025-04-06",
+      "update_time_standardized": "2025-04-06",
+      "downloads": "4050000",
+      "downloads_number": 4050000,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2.5-VL-3B-Instruct"
+    },
+    {
+      "name": "Qwen/Qwen2.5-VL-7B-Instruct",
+      "size": 7.0,
+      "type": "Image-Text-to-Text",
+      "update_time": "2025-04-06",
+      "update_time_standardized": "2025-04-06",
+      "downloads": "1260",
+      "downloads_number": 1260,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2.5-VL-7B-Instruct"
+    },
+    {
+      "name": "Qwen/QwQ-32B-GGUF",
+      "size": 32.0,
+      "type": "Text Generation",
+      "update_time": "2025-03-13",
+      "update_time_standardized": "2025-03-13",
+      "downloads": "4400",
+      "downloads_number": 4400,
+      "huggingface_url": "https://huggingface.co/Qwen/QwQ-32B-GGUF"
+    },
+    {
+      "name": "Qwen/QwQ-32B-AWQ",
+      "size": 32.0,
+      "type": "Text Generation",
+      "update_time": "2025-03-11",
+      "update_time_standardized": "2025-03-11",
+      "downloads": "8390",
+      "downloads_number": 8390,
+      "huggingface_url": "https://huggingface.co/Qwen/QwQ-32B-AWQ"
+    },
+    {
+      "name": "Qwen/QwQ-32B",
+      "size": 32.0,
+      "type": "Text Generation",
+      "update_time": "2025-03-11",
+      "update_time_standardized": "2025-03-11",
+      "downloads": "92000",
+      "downloads_number": 92000,
+      "huggingface_url": "https://huggingface.co/Qwen/QwQ-32B"
+    },
+    {
+      "name": "Qwen/Qwen2.5-VL-72B-Instruct-AWQ",
+      "size": 72.0,
+      "type": "Image-Text-to-Text",
+      "update_time": "2025-03-07",
+      "update_time_standardized": "2025-03-07",
+      "downloads": "69800",
+      "downloads_number": 69800,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2.5-VL-72B-Instruct-AWQ"
+    },
+    {
+      "name": "Qwen/Qwen2-VL-7B-Instruct",
+      "size": 7.0,
+      "type": "Image-Text-to-Text",
+      "update_time": "2025-02-06",
+      "update_time_standardized": "2025-02-06",
+      "downloads": "845000",
+      "downloads_number": 845000,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct"
+    },
+    {
+      "name": "Qwen/Qwen2-VL-72B-Instruct",
+      "size": 72.0,
+      "type": "Image-Text-to-Text",
+      "update_time": "2025-02-06",
+      "update_time_standardized": "2025-02-06",
+      "downloads": "11900",
+      "downloads_number": 11900,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2-VL-72B-Instruct"
+    },
+    {
+      "name": "Qwen/Qwen2.5-7B-Instruct-1M",
+      "size": 7.0,
+      "type": "Text Generation",
+      "update_time": "2025-01-29",
+      "update_time_standardized": "2025-01-29",
+      "downloads": "43600",
+      "downloads_number": 43600,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct-1M"
+    },
+    {
+      "name": "Qwen/Qwen2.5-14B-Instruct-1M",
+      "size": 14.0,
+      "type": "Text Generation",
+      "update_time": "2025-01-29",
+      "update_time_standardized": "2025-01-29",
+      "downloads": "28800",
+      "downloads_number": 28800,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2.5-14B-Instruct-1M"
+    },
+    {
+      "name": "Qwen/Qwen2.5-Math-7B-PRM800K",
+      "size": 7.0,
+      "type": "Text Classification",
+      "update_time": "2025-01-17",
+      "update_time_standardized": "2025-01-17",
+      "downloads": "800000",
+      "downloads_number": 800000,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2.5-Math-7B-PRM800K"
+    },
+    {
+      "name": "Qwen/Qwen2.5-Math-PRM-72B",
+      "size": 72.0,
+      "type": "Text Classification",
+      "update_time": "2025-01-17",
+      "update_time_standardized": "2025-01-17",
+      "downloads": "1120",
+      "downloads_number": 1120,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2.5-Math-PRM-72B"
+    },
+    {
+      "name": "Qwen/Qwen2.5-Math-PRM-7B",
+      "size": 7.0,
+      "type": "Text Classification",
+      "update_time": "2025-01-17",
+      "update_time_standardized": "2025-01-17",
+      "downloads": "25000",
+      "downloads_number": 25000,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2.5-Math-PRM-7B"
+    },
+    {
+      "name": "Qwen/Qwen2.5-Coder-14B-Instruct-GPTQ-Int8",
+      "size": 14.0,
+      "type": "Text Generation",
+      "update_time": "2025-01-12",
+      "update_time_standardized": "2025-01-12",
+      "downloads": "2240",
+      "downloads_number": 2240,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2.5-Coder-14B-Instruct-GPTQ-Int8"
+    },
+    {
+      "name": "Qwen/Qwen2.5-Coder-14B-Instruct-AWQ",
+      "size": 14.0,
+      "type": "Text Generation",
+      "update_time": "2025-01-12",
+      "update_time_standardized": "2025-01-12",
+      "downloads": "20900",
+      "downloads_number": 20900,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2.5-Coder-14B-Instruct-AWQ"
+    },
+    {
+      "name": "Qwen/Qwen-Audio-Chat",
+      "size": 8.0,
+      "type": "Text Generation",
+      "update_time": "2025-01-12",
+      "update_time_standardized": "2025-01-12",
+      "downloads": "3160",
+      "downloads_number": 3160,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen-Audio-Chat"
+    },
+    {
+      "name": "Qwen/Qwen2-VL-7B",
+      "size": 7.0,
+      "type": "Image-Text-to-Text",
+      "update_time": "2025-01-12",
+      "update_time_standardized": "2025-01-12",
+      "downloads": "3970",
+      "downloads_number": 3970,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2-VL-7B"
+    },
+    {
+      "name": "Qwen/Qwen2.5-7B-Instruct",
+      "size": 7.0,
+      "type": "Text Generation",
+      "update_time": "2025-01-12",
+      "update_time_standardized": "2025-01-12",
+      "downloads": "6890000",
+      "downloads_number": 6890000,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct"
+    },
+    {
+      "name": "Qwen/Qwen2.5-Coder-32B-Instruct-GGUF",
+      "size": 32.0,
+      "type": "Text Generation",
+      "update_time": "2025-01-12",
+      "update_time_standardized": "2025-01-12",
+      "downloads": "5620",
+      "downloads_number": 5620,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2.5-Coder-32B-Instruct-GGUF"
+    },
+    {
+      "name": "Qwen/Qwen2.5-72B-Instruct",
+      "size": 72.0,
+      "type": "Text Generation",
+      "update_time": "2025-01-12",
+      "update_time_standardized": "2025-01-12",
+      "downloads": "331000",
+      "downloads_number": 331000,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2.5-72B-Instruct"
+    },
+    {
+      "name": "Qwen/Qwen2-Audio-7B-Instruct",
+      "size": 7.0,
+      "type": "Audio-Text-to-Text",
+      "update_time": "2025-01-12",
+      "update_time_standardized": "2025-01-12",
+      "downloads": "313000",
+      "downloads_number": 313000,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2-Audio-7B-Instruct"
+    },
+    {
+      "name": "Qwen/Qwen2.5-Coder-1.5B-Instruct",
+      "size": 1.5,
+      "type": "Text Generation",
+      "update_time": "2025-01-12",
+      "update_time_standardized": "2025-01-12",
+      "downloads": "150000",
+      "downloads_number": 150000,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2.5-Coder-1.5B-Instruct"
+    },
+    {
+      "name": "Qwen/Qwen2.5-Coder-3B-Instruct",
+      "size": 3.0,
+      "type": "Text Generation",
+      "update_time": "2025-01-12",
+      "update_time_standardized": "2025-01-12",
+      "downloads": "58100",
+      "downloads_number": 58100,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2.5-Coder-3B-Instruct"
+    },
+    {
+      "name": "Qwen/Qwen2.5-Coder-7B-Instruct",
+      "size": 7.0,
+      "type": "Text Generation",
+      "update_time": "2025-01-12",
+      "update_time_standardized": "2025-01-12",
+      "downloads": "891000",
+      "downloads_number": 891000,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2.5-Coder-7B-Instruct"
+    },
+    {
+      "name": "Qwen/Qwen2.5-Coder-14B-Instruct",
+      "size": 14.0,
+      "type": "Text Generation",
+      "update_time": "2025-01-12",
+      "update_time_standardized": "2025-01-12",
+      "downloads": "50800",
+      "downloads_number": 50800,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2.5-Coder-14B-Instruct"
+    },
+    {
+      "name": "Qwen/Qwen2.5-Coder-32B-Instruct",
+      "size": 32.0,
+      "type": "Text Generation",
+      "update_time": "2025-01-12",
+      "update_time_standardized": "2025-01-12",
+      "downloads": "134000",
+      "downloads_number": 134000,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2.5-Coder-32B-Instruct"
+    },
+    {
+      "name": "Qwen/Qwen2-VL-2B-Instruct",
+      "size": 2.0,
+      "type": "Image-Text-to-Text",
+      "update_time": "2025-01-12",
+      "update_time_standardized": "2025-01-12",
+      "downloads": "4110000",
+      "downloads_number": 4110000,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2-VL-2B-Instruct"
+    },
+    {
+      "name": "Qwen/QwQ-32B-Preview",
+      "size": 32.0,
+      "type": "Text Generation",
+      "update_time": "2025-01-12",
+      "update_time_standardized": "2025-01-12",
+      "downloads": "91500",
+      "downloads_number": 91500,
+      "huggingface_url": "https://huggingface.co/Qwen/QwQ-32B-Preview"
+    },
+    {
+      "name": "Qwen/QVQ-72B-Preview",
+      "size": 72.0,
+      "type": "Image-Text-to-Text",
+      "update_time": "2025-01-12",
+      "update_time_standardized": "2025-01-12",
+      "downloads": "18000",
+      "downloads_number": 18000,
+      "huggingface_url": "https://huggingface.co/Qwen/QVQ-72B-Preview"
+    },
+    {
+      "name": "Qwen/Qwen2-VL-2B",
+      "size": 2.0,
+      "type": "Image-Text-to-Text",
+      "update_time": "2024-12-06",
+      "update_time_standardized": "2024-12-06",
+      "downloads": "6350",
+      "downloads_number": 6350,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2-VL-2B"
+    },
+    {
+      "name": "Qwen/Qwen2-VL-72B",
+      "size": 72.0,
+      "type": "Image-Text-to-Text",
+      "update_time": "2024-12-06",
+      "update_time_standardized": "2024-12-06",
+      "downloads": "1060",
+      "downloads_number": 1060,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2-VL-72B"
+    },
+    {
+      "name": "Qwen/Qwen2-Audio-7B",
+      "size": 7.0,
+      "type": "Audio-Text-to-Text",
+      "update_time": "2024-11-20",
+      "update_time_standardized": "2024-11-20",
+      "downloads": "96300",
+      "downloads_number": 96300,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2-Audio-7B"
+    },
+    {
+      "name": "Qwen/Qwen-Audio",
+      "size": 8.0,
+      "type": "Text Generation",
+      "update_time": "2024-11-20",
+      "update_time_standardized": "2024-11-20",
+      "downloads": "2930",
+      "downloads_number": 2930,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen-Audio"
+    },
+    {
+      "name": "Qwen/Qwen2.5-Coder-14B-Instruct-GPTQ-Int4",
+      "size": 14.0,
+      "type": "Text Generation",
+      "update_time": "2024-11-18",
+      "update_time_standardized": "2024-11-18",
+      "downloads": "1860",
+      "downloads_number": 1860,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2.5-Coder-14B-Instruct-GPTQ-Int4"
+    },
+    {
+      "name": "Qwen/Qwen2.5-Coder-32B-Instruct-AWQ",
+      "size": 32.0,
+      "type": "Text Generation",
+      "update_time": "2024-11-18",
+      "update_time_standardized": "2024-11-18",
+      "downloads": "77700",
+      "downloads_number": 77700,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ"
+    },
+    {
+      "name": "Qwen/Qwen2.5-Coder-32B-Instruct-GPTQ-Int8",
+      "size": 32.0,
+      "type": "Text Generation",
+      "update_time": "2024-11-18",
+      "update_time_standardized": "2024-11-18",
+      "downloads": "1820",
+      "downloads_number": 1820,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2.5-Coder-32B-Instruct-GPTQ-Int8"
+    },
+    {
+      "name": "Qwen/Qwen2.5-Coder-32B-Instruct-GPTQ-Int4",
+      "size": 32.0,
+      "type": "Text Generation",
+      "update_time": "2024-11-18",
+      "update_time_standardized": "2024-11-18",
+      "downloads": "4640",
+      "downloads_number": 4640,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2.5-Coder-32B-Instruct-GPTQ-Int4"
+    },
+    {
+      "name": "Qwen/Qwen2.5-Coder-32B",
+      "size": 32.0,
+      "type": "Text Generation",
+      "update_time": "2024-11-18",
+      "update_time_standardized": "2024-11-18",
+      "downloads": "13200",
+      "downloads_number": 13200,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2.5-Coder-32B"
+    },
+    {
+      "name": "Qwen/Qwen2.5-Coder-14B",
+      "size": 14.0,
+      "type": "Text Generation",
+      "update_time": "2024-11-18",
+      "update_time_standardized": "2024-11-18",
+      "downloads": "14600",
+      "downloads_number": 14600,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2.5-Coder-14B"
+    },
+    {
+      "name": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ",
+      "size": 7.0,
+      "type": "Text Generation",
+      "update_time": "2024-11-18",
+      "update_time_standardized": "2024-11-18",
+      "downloads": "139000",
+      "downloads_number": 139000,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2.5-Coder-7B-Instruct-AWQ"
+    },
+    {
+      "name": "Qwen/Qwen2.5-Coder-7B-Instruct-GPTQ-Int8",
+      "size": 7.0,
+      "type": "Text Generation",
+      "update_time": "2024-11-18",
+      "update_time_standardized": "2024-11-18",
+      "downloads": "1310",
+      "downloads_number": 1310,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2.5-Coder-7B-Instruct-GPTQ-Int8"
+    },
+    {
+      "name": "Qwen/Qwen2.5-Coder-7B-Instruct-GPTQ-Int4",
+      "size": 7.0,
+      "type": "Text Generation",
+      "update_time": "2024-11-18",
+      "update_time_standardized": "2024-11-18",
+      "downloads": "2440",
+      "downloads_number": 2440,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2.5-Coder-7B-Instruct-GPTQ-Int4"
+    },
+    {
+      "name": "Qwen/Qwen2.5-Coder-7B",
+      "size": 7.0,
+      "type": "Text Generation",
+      "update_time": "2024-11-18",
+      "update_time_standardized": "2024-11-18",
+      "downloads": "33000",
+      "downloads_number": 33000,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2.5-Coder-7B"
+    },
+    {
+      "name": "Qwen/Qwen2.5-Coder-3B-Instruct-AWQ",
+      "size": 3.0,
+      "type": "Text Generation",
+      "update_time": "2024-11-18",
+      "update_time_standardized": "2024-11-18",
+      "downloads": "2470",
+      "downloads_number": 2470,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2.5-Coder-3B-Instruct-AWQ"
+    },
+    {
+      "name": "Qwen/Qwen2.5-Coder-3B-Instruct-GPTQ-Int8",
+      "size": 3.0,
+      "type": "Text Generation",
+      "update_time": "2024-11-18",
+      "update_time_standardized": "2024-11-18",
+      "downloads": "2",
+      "downloads_number": 2,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2.5-Coder-3B-Instruct-GPTQ-Int8"
+    },
+    {
+      "name": "Qwen/Qwen2.5-Coder-3B-Instruct-GPTQ-Int4",
+      "size": 3.0,
+      "type": "Text Generation",
+      "update_time": "2024-11-18",
+      "update_time_standardized": "2024-11-18",
+      "downloads": "1190",
+      "downloads_number": 1190,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2.5-Coder-3B-Instruct-GPTQ-Int4"
+    },
+    {
+      "name": "Qwen/Qwen2.5-Coder-3B",
+      "size": 3.0,
+      "type": "Text Generation",
+      "update_time": "2024-11-18",
+      "update_time_standardized": "2024-11-18",
+      "downloads": "22000",
+      "downloads_number": 22000,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2.5-Coder-3B"
+    },
+    {
+      "name": "Qwen/Qwen2.5-Coder-1.5B-Instruct-AWQ",
+      "size": 1.5,
+      "type": "Text Generation",
+      "update_time": "2024-11-18",
+      "update_time_standardized": "2024-11-18",
+      "downloads": "1980",
+      "downloads_number": 1980,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2.5-Coder-1.5B-Instruct-AWQ"
+    },
+    {
+      "name": "Qwen/Qwen2.5-Coder-1.5B-Instruct-GPTQ-Int8",
+      "size": 1.5,
+      "type": "Text Generation",
+      "update_time": "2024-11-18",
+      "update_time_standardized": "2024-11-18",
+      "downloads": "1110",
+      "downloads_number": 1110,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2.5-Coder-1.5B-Instruct-GPTQ-Int8"
+    },
+    {
+      "name": "Qwen/Qwen2.5-Coder-1.5B-Instruct-GPTQ-Int4",
+      "size": 1.5,
+      "type": "Text Generation",
+      "update_time": "2024-11-18",
+      "update_time_standardized": "2024-11-18",
+      "downloads": "1070",
+      "downloads_number": 1070,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2.5-Coder-1.5B-Instruct-GPTQ-Int4"
+    },
+    {
+      "name": "Qwen/Qwen2.5-Coder-1.5B",
+      "size": 1.5,
+      "type": "Text Generation",
+      "update_time": "2024-11-18",
+      "update_time_standardized": "2024-11-18",
+      "downloads": "292000",
+      "downloads_number": 292000,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2.5-Coder-1.5B"
+    },
+    {
+      "name": "Qwen/Qwen2.5-Coder-0.5B-Instruct-AWQ",
+      "size": 0.5,
+      "type": "Text Generation",
+      "update_time": "2024-11-18",
+      "update_time_standardized": "2024-11-18",
+      "downloads": "1210",
+      "downloads_number": 1210,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2.5-Coder-0.5B-Instruct-AWQ"
+    },
+    {
+      "name": "Qwen/Qwen2.5-Coder-0.5B-Instruct-GPTQ-Int8",
+      "size": 0.5,
+      "type": "Text Generation",
+      "update_time": "2024-11-18",
+      "update_time_standardized": "2024-11-18",
+      "downloads": "1060",
+      "downloads_number": 1060,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2.5-Coder-0.5B-Instruct-GPTQ-Int8"
+    },
+    {
+      "name": "Qwen/Qwen2.5-Coder-0.5B-Instruct-GPTQ-Int4",
+      "size": 0.5,
+      "type": "Text Generation",
+      "update_time": "2024-11-18",
+      "update_time_standardized": "2024-11-18",
+      "downloads": "2",
+      "downloads_number": 2,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2.5-Coder-0.5B-Instruct-GPTQ-Int4"
+    },
+    {
+      "name": "Qwen/Qwen2.5-Coder-0.5B-Instruct",
+      "size": 0.5,
+      "type": "Text Generation",
+      "update_time": "2024-11-18",
+      "update_time_standardized": "2024-11-18",
+      "downloads": "28700",
+      "downloads_number": 28700,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2.5-Coder-0.5B-Instruct"
+    },
+    {
+      "name": "Qwen/Qwen2.5-Coder-0.5B",
+      "size": 0.5,
+      "type": "Text Generation",
+      "update_time": "2024-11-18",
+      "update_time_standardized": "2024-11-18",
+      "downloads": "20400",
+      "downloads_number": 20400,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2.5-Coder-0.5B"
+    },
+    {
+      "name": "Qwen/Qwen2.5-Coder-14B-Instruct-GGUF",
+      "size": 14.0,
+      "type": "Text Generation",
+      "update_time": "2024-11-12",
+      "update_time_standardized": "2024-11-12",
+      "downloads": "9330",
+      "downloads_number": 9330,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2.5-Coder-14B-Instruct-GGUF"
+    },
+    {
+      "name": "Qwen/Qwen2.5-Coder-7B-Instruct-GGUF",
+      "size": 7.0,
+      "type": "Text Generation",
+      "update_time": "2024-11-12",
+      "update_time_standardized": "2024-11-12",
+      "downloads": "27300",
+      "downloads_number": 27300,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2.5-Coder-7B-Instruct-GGUF"
+    },
+    {
+      "name": "Qwen/Qwen2.5-Coder-1.5B-Instruct-GGUF",
+      "size": 1.5,
+      "type": "Text Generation",
+      "update_time": "2024-11-12",
+      "update_time_standardized": "2024-11-12",
+      "downloads": "3410",
+      "downloads_number": 3410,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2.5-Coder-1.5B-Instruct-GGUF"
+    },
+    {
+      "name": "Qwen/Qwen2.5-Coder-3B-Instruct-GGUF",
+      "size": 3.0,
+      "type": "Text Generation",
+      "update_time": "2024-11-11",
+      "update_time_standardized": "2024-11-11",
+      "downloads": "6950",
+      "downloads_number": 6950,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2.5-Coder-3B-Instruct-GGUF"
+    },
+    {
+      "name": "Qwen/Qwen2.5-Coder-0.5B-Instruct-GGUF",
+      "size": 0.5,
+      "type": "Text Generation",
+      "update_time": "2024-11-11",
+      "update_time_standardized": "2024-11-11",
+      "downloads": "5500",
+      "downloads_number": 5500,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2.5-Coder-0.5B-Instruct-GGUF"
+    },
+    {
+      "name": "Qwen/Qwen2.5-Math-RM-72B",
+      "size": 72.0,
+      "type": "Text Classification",
+      "update_time": "2024-10-31",
+      "update_time_standardized": "2024-10-31",
+      "downloads": "41300",
+      "downloads_number": 41300,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2.5-Math-RM-72B"
+    },
+    {
+      "name": "Qwen/Qwen2-0.5B",
+      "size": 0.5,
+      "type": "Text Generation",
+      "update_time": "2024-10-22",
+      "update_time_standardized": "2024-10-22",
+      "downloads": "288000",
+      "downloads_number": 288000,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2-0.5B"
+    },
+    {
+      "name": "Qwen/Qwen2.5-7B-Instruct-GPTQ-Int4",
+      "size": 7.0,
+      "type": "Text Generation",
+      "update_time": "2024-10-18",
+      "update_time_standardized": "2024-10-18",
+      "downloads": "519000",
+      "downloads_number": 519000,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct-GPTQ-Int4"
+    },
+    {
+      "name": "Qwen/Qwen2.5-7B-Instruct-GPTQ-Int8",
+      "size": 7.0,
+      "type": "Text Generation",
+      "update_time": "2024-10-18",
+      "update_time_standardized": "2024-10-18",
+      "downloads": "15400",
+      "downloads_number": 15400,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct-GPTQ-Int8"
+    },
+    {
+      "name": "Qwen/Qwen2.5-72B-Instruct-GPTQ-Int4",
+      "size": 72.0,
+      "type": "Text Generation",
+      "update_time": "2024-10-09",
+      "update_time_standardized": "2024-10-09",
+      "downloads": "12900",
+      "downloads_number": 12900,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2.5-72B-Instruct-GPTQ-Int4"
+    },
+    {
+      "name": "Qwen/Qwen2.5-72B-Instruct-GPTQ-Int8",
+      "size": 72.0,
+      "type": "Text Generation",
+      "update_time": "2024-10-09",
+      "update_time_standardized": "2024-10-09",
+      "downloads": "2930",
+      "downloads_number": 2930,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2.5-72B-Instruct-GPTQ-Int8"
+    },
+    {
+      "name": "Qwen/Qwen2.5-14B-Instruct-GPTQ-Int4",
+      "size": 14.0,
+      "type": "Text Generation",
+      "update_time": "2024-10-09",
+      "update_time_standardized": "2024-10-09",
+      "downloads": "11800",
+      "downloads_number": 11800,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2.5-14B-Instruct-GPTQ-Int4"
+    },
+    {
+      "name": "Qwen/Qwen2.5-32B-Instruct-GPTQ-Int4",
+      "size": 32.0,
+      "type": "Text Generation",
+      "update_time": "2024-10-09",
+      "update_time_standardized": "2024-10-09",
+      "downloads": "124000",
+      "downloads_number": 124000,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2.5-32B-Instruct-GPTQ-Int4"
+    },
+    {
+      "name": "Qwen/Qwen2.5-32B-Instruct-GPTQ-Int8",
+      "size": 32.0,
+      "type": "Text Generation",
+      "update_time": "2024-10-09",
+      "update_time_standardized": "2024-10-09",
+      "downloads": "419000",
+      "downloads_number": 419000,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2.5-32B-Instruct-GPTQ-Int8"
+    },
+    {
+      "name": "Qwen/Qwen2.5-14B-Instruct-GPTQ-Int8",
+      "size": 14.0,
+      "type": "Text Generation",
+      "update_time": "2024-10-09",
+      "update_time_standardized": "2024-10-09",
+      "downloads": "27300",
+      "downloads_number": 27300,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2.5-14B-Instruct-GPTQ-Int8"
+    },
+    {
+      "name": "Qwen/Qwen2.5-3B-Instruct-GPTQ-Int4",
+      "size": 3.0,
+      "type": "Text Generation",
+      "update_time": "2024-10-09",
+      "update_time_standardized": "2024-10-09",
+      "downloads": "2460",
+      "downloads_number": 2460,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2.5-3B-Instruct-GPTQ-Int4"
+    },
+    {
+      "name": "Qwen/Qwen2.5-3B-Instruct-GPTQ-Int8",
+      "size": 3.0,
+      "type": "Text Generation",
+      "update_time": "2024-10-09",
+      "update_time_standardized": "2024-10-09",
+      "downloads": "1390",
+      "downloads_number": 1390,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2.5-3B-Instruct-GPTQ-Int8"
+    },
+    {
+      "name": "Qwen/Qwen2.5-1.5B-Instruct-GPTQ-Int4",
+      "size": 1.5,
+      "type": "Text Generation",
+      "update_time": "2024-10-09",
+      "update_time_standardized": "2024-10-09",
+      "downloads": "11000",
+      "downloads_number": 11000,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct-GPTQ-Int4"
+    },
+    {
+      "name": "Qwen/Qwen2.5-0.5B-Instruct-GPTQ-Int8",
+      "size": 0.5,
+      "type": "Text Generation",
+      "update_time": "2024-10-09",
+      "update_time_standardized": "2024-10-09",
+      "downloads": "1630",
+      "downloads_number": 1630,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2.5-0.5B-Instruct-GPTQ-Int8"
+    },
+    {
+      "name": "Qwen/Qwen2.5-1.5B-Instruct-GPTQ-Int8",
+      "size": 1.5,
+      "type": "Text Generation",
+      "update_time": "2024-10-09",
+      "update_time_standardized": "2024-10-09",
+      "downloads": "1190",
+      "downloads_number": 1190,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct-GPTQ-Int8"
+    },
+    {
+      "name": "Qwen/Qwen2.5-72B-Instruct-AWQ",
+      "size": 72.0,
+      "type": "Text Generation",
+      "update_time": "2024-10-09",
+      "update_time_standardized": "2024-10-09",
+      "downloads": "303000",
+      "downloads_number": 303000,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2.5-72B-Instruct-AWQ"
+    },
+    {
+      "name": "Qwen/Qwen2.5-0.5B-Instruct-AWQ",
+      "size": 0.5,
+      "type": "Text Generation",
+      "update_time": "2024-10-09",
+      "update_time_standardized": "2024-10-09",
+      "downloads": "6470",
+      "downloads_number": 6470,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2.5-0.5B-Instruct-AWQ"
+    },
+    {
+      "name": "Qwen/Qwen2.5-1.5B-Instruct-AWQ",
+      "size": 1.5,
+      "type": "Text Generation",
+      "update_time": "2024-10-09",
+      "update_time_standardized": "2024-10-09",
+      "downloads": "60700",
+      "downloads_number": 60700,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct-AWQ"
+    },
+    {
+      "name": "Qwen/Qwen2.5-3B-Instruct-AWQ",
+      "size": 3.0,
+      "type": "Text Generation",
+      "update_time": "2024-10-09",
+      "update_time_standardized": "2024-10-09",
+      "downloads": "6510",
+      "downloads_number": 6510,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2.5-3B-Instruct-AWQ"
+    },
+    {
+      "name": "Qwen/Qwen2.5-7B-Instruct-AWQ",
+      "size": 7.0,
+      "type": "Text Generation",
+      "update_time": "2024-10-09",
+      "update_time_standardized": "2024-10-09",
+      "downloads": "254000",
+      "downloads_number": 254000,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct-AWQ"
+    },
+    {
+      "name": "Qwen/Qwen2.5-14B-Instruct-AWQ",
+      "size": 14.0,
+      "type": "Text Generation",
+      "update_time": "2024-10-09",
+      "update_time_standardized": "2024-10-09",
+      "downloads": "38200",
+      "downloads_number": 38200,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2.5-14B-Instruct-AWQ"
+    },
+    {
+      "name": "Qwen/Qwen2.5-32B-Instruct-AWQ",
+      "size": 32.0,
+      "type": "Text Generation",
+      "update_time": "2024-10-09",
+      "update_time_standardized": "2024-10-09",
+      "downloads": "593000",
+      "downloads_number": 593000,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2.5-32B-Instruct-AWQ"
+    },
+    {
+      "name": "Qwen/Qwen2-72B",
+      "size": 72.0,
+      "type": "Text Generation",
+      "update_time": "2024-10-09",
+      "update_time_standardized": "2024-10-09",
+      "downloads": "12000",
+      "downloads_number": 12000,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2-72B"
+    },
+    {
+      "name": "Qwen/Qwen-72B",
+      "size": 72.0,
+      "type": "Text Generation",
+      "update_time": "2024-10-09",
+      "update_time_standardized": "2024-10-09",
+      "downloads": "3690",
+      "downloads_number": 3690,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen-72B"
+    },
+    {
+      "name": "Qwen/Qwen2.5-1.5B",
+      "size": 1.5,
+      "type": "Text Generation",
+      "update_time": "2024-10-08",
+      "update_time_standardized": "2024-10-08",
+      "downloads": "261000",
+      "downloads_number": 261000,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2.5-1.5B"
+    },
+    {
+      "name": "Qwen/Qwen-72B-Chat",
+      "size": 72.0,
+      "type": "Text Generation",
+      "update_time": "2024-10-08",
+      "update_time_standardized": "2024-10-08",
+      "downloads": "1670",
+      "downloads_number": 1670,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen-72B-Chat"
+    },
+    {
+      "name": "Qwen/Qwen1.5-72B-Chat",
+      "size": 72.0,
+      "type": "Text Generation",
+      "update_time": "2024-10-08",
+      "update_time_standardized": "2024-10-08",
+      "downloads": "11000",
+      "downloads_number": 11000,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen1.5-72B-Chat"
+    },
+    {
+      "name": "Qwen/Qwen2-72B-Instruct",
+      "size": 72.0,
+      "type": "Text Generation",
+      "update_time": "2024-10-08",
+      "update_time_standardized": "2024-10-08",
+      "downloads": "42000",
+      "downloads_number": 42000,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2-72B-Instruct"
+    },
+    {
+      "name": "Qwen/Qwen2.5-32B-Instruct",
+      "size": 32.0,
+      "type": "Text Generation",
+      "update_time": "2024-09-25",
+      "update_time_standardized": "2024-09-25",
+      "downloads": "394000",
+      "downloads_number": 394000,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2.5-32B-Instruct"
+    },
+    {
+      "name": "Qwen/Qwen2.5-14B-Instruct",
+      "size": 14.0,
+      "type": "Text Generation",
+      "update_time": "2024-09-25",
+      "update_time_standardized": "2024-09-25",
+      "downloads": "1280000",
+      "downloads_number": 1280000,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2.5-14B-Instruct"
+    },
+    {
+      "name": "Qwen/Qwen2.5-3B-Instruct",
+      "size": 3.0,
+      "type": "Text Generation",
+      "update_time": "2024-09-25",
+      "update_time_standardized": "2024-09-25",
+      "downloads": "7300000",
+      "downloads_number": 7300000,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2.5-3B-Instruct"
+    },
+    {
+      "name": "Qwen/Qwen2.5-0.5B-Instruct",
+      "size": 0.5,
+      "type": "Text Generation",
+      "update_time": "2024-09-25",
+      "update_time_standardized": "2024-09-25",
+      "downloads": "1770000",
+      "downloads_number": 1770000,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2.5-0.5B-Instruct"
+    },
+    {
+      "name": "Qwen/Qwen2.5-1.5B-Instruct",
+      "size": 1.5,
+      "type": "Text Generation",
+      "update_time": "2024-09-25",
+      "update_time_standardized": "2024-09-25",
+      "downloads": "5060000",
+      "downloads_number": 5060000,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct"
+    },
+    {
+      "name": "Qwen/Qwen2-VL-7B-Instruct-AWQ",
+      "size": 7.0,
+      "type": "Image-Text-to-Text",
+      "update_time": "2024-09-25",
+      "update_time_standardized": "2024-09-25",
+      "downloads": "4090",
+      "downloads_number": 4090,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct-AWQ"
+    },
+    {
+      "name": "Qwen/Qwen2.5-0.5B",
+      "size": 0.5,
+      "type": "Text Generation",
+      "update_time": "2024-09-25",
+      "update_time_standardized": "2024-09-25",
+      "downloads": "1170000",
+      "downloads_number": 1170000,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2.5-0.5B"
+    },
+    {
+      "name": "Qwen/Qwen2.5-7B",
+      "size": 7.0,
+      "type": "Text Generation",
+      "update_time": "2024-09-25",
+      "update_time_standardized": "2024-09-25",
+      "downloads": "1790000",
+      "downloads_number": 1790000,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2.5-7B"
+    },
+    {
+      "name": "Qwen/Qwen2.5-72B",
+      "size": 72.0,
+      "type": "Text Generation",
+      "update_time": "2024-09-25",
+      "update_time_standardized": "2024-09-25",
+      "downloads": "30200",
+      "downloads_number": 30200,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2.5-72B"
+    },
+    {
+      "name": "Qwen/Qwen2-VL-72B-Instruct-AWQ",
+      "size": 72.0,
+      "type": "Image-Text-to-Text",
+      "update_time": "2024-09-25",
+      "update_time_standardized": "2024-09-25",
+      "downloads": "1430",
+      "downloads_number": 1430,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2-VL-72B-Instruct-AWQ"
+    },
+    {
+      "name": "Qwen/Qwen2-VL-72B-Instruct-GPTQ-Int8",
+      "size": 72.0,
+      "type": "Image-Text-to-Text",
+      "update_time": "2024-09-24",
+      "update_time_standardized": "2024-09-24",
+      "downloads": "1090",
+      "downloads_number": 1090,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2-VL-72B-Instruct-GPTQ-Int8"
+    },
+    {
+      "name": "Qwen/Qwen2-VL-72B-Instruct-GPTQ-Int4",
+      "size": 72.0,
+      "type": "Image-Text-to-Text",
+      "update_time": "2024-09-24",
+      "update_time_standardized": "2024-09-24",
+      "downloads": "1700",
+      "downloads_number": 1700,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2-VL-72B-Instruct-GPTQ-Int4"
+    },
+    {
+      "name": "Qwen/Qwen2.5-Math-7B-Instruct",
+      "size": 7.0,
+      "type": "Text Generation",
+      "update_time": "2024-09-23",
+      "update_time_standardized": "2024-09-23",
+      "downloads": "31200",
+      "downloads_number": 31200,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2.5-Math-7B-Instruct"
+    },
+    {
+      "name": "Qwen/Qwen2.5-Math-72B",
+      "size": 72.0,
+      "type": "Text Generation",
+      "update_time": "2024-09-23",
+      "update_time_standardized": "2024-09-23",
+      "downloads": "1860",
+      "downloads_number": 1860,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2.5-Math-72B"
+    },
+    {
+      "name": "Qwen/Qwen2.5-Math-7B",
+      "size": 7.0,
+      "type": "Text Generation",
+      "update_time": "2024-09-23",
+      "update_time_standardized": "2024-09-23",
+      "downloads": "124000",
+      "downloads_number": 124000,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2.5-Math-7B"
+    },
+    {
+      "name": "Qwen/Qwen2.5-Math-1.5B-Instruct",
+      "size": 1.5,
+      "type": "Text Generation",
+      "update_time": "2024-09-23",
+      "update_time_standardized": "2024-09-23",
+      "downloads": "46900",
+      "downloads_number": 46900,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2.5-Math-1.5B-Instruct"
+    },
+    {
+      "name": "Qwen/Qwen2.5-Math-1.5B",
+      "size": 1.5,
+      "type": "Text Generation",
+      "update_time": "2024-09-23",
+      "update_time_standardized": "2024-09-23",
+      "downloads": "245000",
+      "downloads_number": 245000,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2.5-Math-1.5B"
+    },
+    {
+      "name": "Qwen/Qwen2.5-Math-72B-Instruct",
+      "size": 72.0,
+      "type": "Text Generation",
+      "update_time": "2024-09-23",
+      "update_time_standardized": "2024-09-23",
+      "downloads": "3210",
+      "downloads_number": 3210,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2.5-Math-72B-Instruct"
+    },
+    {
+      "name": "Qwen/Qwen2-VL-7B-Instruct-GPTQ-Int8",
+      "size": 7.0,
+      "type": "Image-Text-to-Text",
+      "update_time": "2024-09-21",
+      "update_time_standardized": "2024-09-21",
+      "downloads": "5800",
+      "downloads_number": 5800,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct-GPTQ-Int8"
+    },
+    {
+      "name": "Qwen/Qwen2-VL-2B-Instruct-GPTQ-Int4",
+      "size": 2.0,
+      "type": "Image-Text-to-Text",
+      "update_time": "2024-09-21",
+      "update_time_standardized": "2024-09-21",
+      "downloads": "1630",
+      "downloads_number": 1630,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2-VL-2B-Instruct-GPTQ-Int4"
+    },
+    {
+      "name": "Qwen/Qwen2-VL-2B-Instruct-GPTQ-Int8",
+      "size": 2.0,
+      "type": "Image-Text-to-Text",
+      "update_time": "2024-09-21",
+      "update_time_standardized": "2024-09-21",
+      "downloads": "1230",
+      "downloads_number": 1230,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2-VL-2B-Instruct-GPTQ-Int8"
+    },
+    {
+      "name": "Qwen/Qwen2-VL-2B-Instruct-AWQ",
+      "size": 2.0,
+      "type": "Image-Text-to-Text",
+      "update_time": "2024-09-21",
+      "update_time_standardized": "2024-09-21",
+      "downloads": "2620",
+      "downloads_number": 2620,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2-VL-2B-Instruct-AWQ"
+    },
+    {
+      "name": "Qwen/Qwen2-VL-7B-Instruct-GPTQ-Int4",
+      "size": 7.0,
+      "type": "Image-Text-to-Text",
+      "update_time": "2024-09-21",
+      "update_time_standardized": "2024-09-21",
+      "downloads": "10200",
+      "downloads_number": 10200,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct-GPTQ-Int4"
+    },
+    {
+      "name": "Qwen/Qwen2.5-32B",
+      "size": 32.0,
+      "type": "Text Generation",
+      "update_time": "2024-09-20",
+      "update_time_standardized": "2024-09-20",
+      "downloads": "385000",
+      "downloads_number": 385000,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2.5-32B"
+    },
+    {
+      "name": "Qwen/Qwen2.5-14B",
+      "size": 14.0,
+      "type": "Text Generation",
+      "update_time": "2024-09-20",
+      "update_time_standardized": "2024-09-20",
+      "downloads": "300000",
+      "downloads_number": 300000,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2.5-14B"
+    },
+    {
+      "name": "Qwen/Qwen2.5-3B",
+      "size": 3.0,
+      "type": "Text Generation",
+      "update_time": "2024-09-20",
+      "update_time_standardized": "2024-09-20",
+      "downloads": "442000",
+      "downloads_number": 442000,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2.5-3B"
+    },
+    {
+      "name": "Qwen/Qwen2.5-72B-Instruct-GGUF",
+      "size": 72.0,
+      "type": "Text Generation",
+      "update_time": "2024-09-20",
+      "update_time_standardized": "2024-09-20",
+      "downloads": "1120",
+      "downloads_number": 1120,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2.5-72B-Instruct-GGUF"
+    },
+    {
+      "name": "Qwen/Qwen2.5-32B-Instruct-GGUF",
+      "size": 32.0,
+      "type": "Text Generation",
+      "update_time": "2024-09-20",
+      "update_time_standardized": "2024-09-20",
+      "downloads": "2110",
+      "downloads_number": 2110,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2.5-32B-Instruct-GGUF"
+    },
+    {
+      "name": "Qwen/Qwen2.5-14B-Instruct-GGUF",
+      "size": 14.0,
+      "type": "Text Generation",
+      "update_time": "2024-09-20",
+      "update_time_standardized": "2024-09-20",
+      "downloads": "4010",
+      "downloads_number": 4010,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2.5-14B-Instruct-GGUF"
+    },
+    {
+      "name": "Qwen/Qwen2.5-7B-Instruct-GGUF",
+      "size": 7.0,
+      "type": "Text Generation",
+      "update_time": "2024-09-20",
+      "update_time_standardized": "2024-09-20",
+      "downloads": "18200",
+      "downloads_number": 18200,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct-GGUF"
+    },
+    {
+      "name": "Qwen/Qwen2.5-3B-Instruct-GGUF",
+      "size": 3.0,
+      "type": "Text Generation",
+      "update_time": "2024-09-20",
+      "update_time_standardized": "2024-09-20",
+      "downloads": "45600",
+      "downloads_number": 45600,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2.5-3B-Instruct-GGUF"
+    },
+    {
+      "name": "Qwen/Qwen2.5-1.5B-Instruct-GGUF",
+      "size": 1.5,
+      "type": "Text Generation",
+      "update_time": "2024-09-20",
+      "update_time_standardized": "2024-09-20",
+      "downloads": "62400",
+      "downloads_number": 62400,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct-GGUF"
+    },
+    {
+      "name": "Qwen/Qwen2.5-0.5B-Instruct-GGUF",
+      "size": 0.5,
+      "type": "Text Generation",
+      "update_time": "2024-09-20",
+      "update_time_standardized": "2024-09-20",
+      "downloads": "33600",
+      "downloads_number": 33600,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2.5-0.5B-Instruct-GGUF"
+    },
+    {
+      "name": "Qwen/Qwen2.5-0.5B-Instruct-GPTQ-Int4",
+      "size": 0.5,
+      "type": "Text Generation",
+      "update_time": "2024-09-19",
+      "update_time_standardized": "2024-09-19",
+      "downloads": "2940",
+      "downloads_number": 2940,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2.5-0.5B-Instruct-GPTQ-Int4"
+    },
+    {
+      "name": "Qwen/Qwen2-Math-RM-72B",
+      "size": 72.0,
+      "type": "Text Classification",
+      "update_time": "2024-09-18",
+      "update_time_standardized": "2024-09-18",
+      "downloads": "2",
+      "downloads_number": 2,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2-Math-RM-72B"
+    },
+    {
+      "name": "Qwen/Qwen2-7B-Instruct-MLX",
+      "size": 7.0,
+      "type": "Text Generation",
+      "update_time": "2024-09-18",
+      "update_time_standardized": "2024-09-18",
+      "downloads": "1160",
+      "downloads_number": 1160,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2-7B-Instruct-MLX"
+    },
+    {
+      "name": "Qwen/Qwen2-Math-72B-Instruct",
+      "size": 72.0,
+      "type": "Text Generation",
+      "update_time": "2024-09-13",
+      "update_time_standardized": "2024-09-13",
+      "downloads": "1250",
+      "downloads_number": 1250,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2-Math-72B-Instruct"
+    },
+    {
+      "name": "Qwen/Qwen2-0.5B-Instruct-GPTQ-Int4",
+      "size": 0.5,
+      "type": "Text Generation",
+      "update_time": "2024-08-21",
+      "update_time_standardized": "2024-08-21",
+      "downloads": "2",
+      "downloads_number": 2,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2-0.5B-Instruct-GPTQ-Int4"
+    },
+    {
+      "name": "Qwen/Qwen2-0.5B-Instruct-GPTQ-Int8",
+      "size": 0.5,
+      "type": "Text Generation",
+      "update_time": "2024-08-21",
+      "update_time_standardized": "2024-08-21",
+      "downloads": "1050",
+      "downloads_number": 1050,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2-0.5B-Instruct-GPTQ-Int8"
+    },
+    {
+      "name": "Qwen/Qwen2-0.5B-Instruct-AWQ",
+      "size": 0.5,
+      "type": "Text Generation",
+      "update_time": "2024-08-21",
+      "update_time_standardized": "2024-08-21",
+      "downloads": "1360",
+      "downloads_number": 1360,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2-0.5B-Instruct-AWQ"
+    },
+    {
+      "name": "Qwen/Qwen2-1.5B-Instruct-GPTQ-Int4",
+      "size": 1.5,
+      "type": "Text Generation",
+      "update_time": "2024-08-21",
+      "update_time_standardized": "2024-08-21",
+      "downloads": "22400",
+      "downloads_number": 22400,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2-1.5B-Instruct-GPTQ-Int4"
+    },
+    {
+      "name": "Qwen/Qwen2-1.5B-Instruct-GPTQ-Int8",
+      "size": 1.5,
+      "type": "Text Generation",
+      "update_time": "2024-08-21",
+      "update_time_standardized": "2024-08-21",
+      "downloads": "1290",
+      "downloads_number": 1290,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2-1.5B-Instruct-GPTQ-Int8"
+    },
+    {
+      "name": "Qwen/Qwen2-1.5B-Instruct-AWQ",
+      "size": 1.5,
+      "type": "Text Generation",
+      "update_time": "2024-08-21",
+      "update_time_standardized": "2024-08-21",
+      "downloads": "22400",
+      "downloads_number": 22400,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2-1.5B-Instruct-AWQ"
+    },
+    {
+      "name": "Qwen/Qwen2-57B-A14B-Instruct-GPTQ-Int4",
+      "size": 57.0,
+      "type": "Text Generation",
+      "update_time": "2024-08-21",
+      "update_time_standardized": "2024-08-21",
+      "downloads": "2",
+      "downloads_number": 2,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2-57B-A14B-Instruct-GPTQ-Int4"
+    },
+    {
+      "name": "Qwen/Qwen2-7B-Instruct-GPTQ-Int4",
+      "size": 7.0,
+      "type": "Text Generation",
+      "update_time": "2024-08-21",
+      "update_time_standardized": "2024-08-21",
+      "downloads": "2130",
+      "downloads_number": 2130,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2-7B-Instruct-GPTQ-Int4"
+    },
+    {
+      "name": "Qwen/Qwen2-7B-Instruct-GPTQ-Int8",
+      "size": 7.0,
+      "type": "Text Generation",
+      "update_time": "2024-08-21",
+      "update_time_standardized": "2024-08-21",
+      "downloads": "21600",
+      "downloads_number": 21600,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2-7B-Instruct-GPTQ-Int8"
+    },
+    {
+      "name": "Qwen/Qwen2-7B-Instruct-AWQ",
+      "size": 7.0,
+      "type": "Text Generation",
+      "update_time": "2024-08-21",
+      "update_time_standardized": "2024-08-21",
+      "downloads": "2840",
+      "downloads_number": 2840,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2-7B-Instruct-AWQ"
+    },
+    {
+      "name": "Qwen/Qwen2-0.5B-Instruct-GGUF",
+      "size": 0.5,
+      "type": "Text Generation",
+      "update_time": "2024-08-21",
+      "update_time_standardized": "2024-08-21",
+      "downloads": "7550",
+      "downloads_number": 7550,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2-0.5B-Instruct-GGUF"
+    },
+    {
+      "name": "Qwen/Qwen2-7B-Instruct",
+      "size": 7.0,
+      "type": "Text Generation",
+      "update_time": "2024-08-21",
+      "update_time_standardized": "2024-08-21",
+      "downloads": "227000",
+      "downloads_number": 227000,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2-7B-Instruct"
+    },
+    {
+      "name": "Qwen/Qwen2-7B-Instruct-GGUF",
+      "size": 7.0,
+      "type": "Text Generation",
+      "update_time": "2024-08-21",
+      "update_time_standardized": "2024-08-21",
+      "downloads": "5550",
+      "downloads_number": 5550,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2-7B-Instruct-GGUF"
+    },
+    {
+      "name": "Qwen/Qwen2-72B-Instruct-GPTQ-Int4",
+      "size": 72.0,
+      "type": "Text Generation",
+      "update_time": "2024-08-21",
+      "update_time_standardized": "2024-08-21",
+      "downloads": "4390",
+      "downloads_number": 4390,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2-72B-Instruct-GPTQ-Int4"
+    },
+    {
+      "name": "Qwen/Qwen2-72B-Instruct-GPTQ-Int8",
+      "size": 72.0,
+      "type": "Text Generation",
+      "update_time": "2024-08-21",
+      "update_time_standardized": "2024-08-21",
+      "downloads": "2",
+      "downloads_number": 2,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2-72B-Instruct-GPTQ-Int8"
+    },
+    {
+      "name": "Qwen/Qwen2-57B-A14B-Instruct",
+      "size": 57.0,
+      "type": "Text Generation",
+      "update_time": "2024-08-21",
+      "update_time_standardized": "2024-08-21",
+      "downloads": "15100",
+      "downloads_number": 15100,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2-57B-A14B-Instruct"
+    },
+    {
+      "name": "Qwen/Qwen2-0.5B-Instruct",
+      "size": 0.5,
+      "type": "Text Generation",
+      "update_time": "2024-08-21",
+      "update_time_standardized": "2024-08-21",
+      "downloads": "261000",
+      "downloads_number": 261000,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2-0.5B-Instruct"
+    },
+    {
+      "name": "Qwen/Qwen2-72B-Instruct-AWQ",
+      "size": 72.0,
+      "type": "Text Generation",
+      "update_time": "2024-08-21",
+      "update_time_standardized": "2024-08-21",
+      "downloads": "1170",
+      "downloads_number": 1170,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2-72B-Instruct-AWQ"
+    },
+    {
+      "name": "Qwen/Qwen2-Math-7B-Instruct",
+      "size": 7.0,
+      "type": "Text Generation",
+      "update_time": "2024-08-12",
+      "update_time_standardized": "2024-08-12",
+      "downloads": "2620",
+      "downloads_number": 2620,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2-Math-7B-Instruct"
+    },
+    {
+      "name": "Qwen/Qwen2-Math-1.5B-Instruct",
+      "size": 1.5,
+      "type": "Text Generation",
+      "update_time": "2024-08-12",
+      "update_time_standardized": "2024-08-12",
+      "downloads": "1680",
+      "downloads_number": 1680,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2-Math-1.5B-Instruct"
+    },
+    {
+      "name": "Qwen/Qwen2-Math-1.5B",
+      "size": 1.5,
+      "type": "Text Generation",
+      "update_time": "2024-08-08",
+      "update_time_standardized": "2024-08-08",
+      "downloads": "1800",
+      "downloads_number": 1800,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2-Math-1.5B"
+    },
+    {
+      "name": "Qwen/Qwen2-Math-72B",
+      "size": 72.0,
+      "type": "Text Generation",
+      "update_time": "2024-08-08",
+      "update_time_standardized": "2024-08-08",
+      "downloads": "2",
+      "downloads_number": 2,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2-Math-72B"
+    },
+    {
+      "name": "Qwen/Qwen2-Math-7B",
+      "size": 7.0,
+      "type": "Text Generation",
+      "update_time": "2024-08-08",
+      "update_time_standardized": "2024-08-08",
+      "downloads": "3480",
+      "downloads_number": 3480,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2-Math-7B"
+    },
+    {
+      "name": "Qwen/Qwen2-1.5B-Instruct-GGUF",
+      "size": 1.5,
+      "type": "Text Generation",
+      "update_time": "2024-06-18",
+      "update_time_standardized": "2024-06-18",
+      "downloads": "6500",
+      "downloads_number": 6500,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2-1.5B-Instruct-GGUF"
+    },
+    {
+      "name": "Qwen/Qwen2-72B-Instruct-GGUF",
+      "size": 72.0,
+      "type": "Text Generation",
+      "update_time": "2024-06-17",
+      "update_time_standardized": "2024-06-17",
+      "downloads": "2",
+      "downloads_number": 2,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2-72B-Instruct-GGUF"
+    },
+    {
+      "name": "Qwen/Qwen2-57B-A14B-Instruct-GGUF",
+      "size": 57.0,
+      "type": "Text Generation",
+      "update_time": "2024-06-17",
+      "update_time_standardized": "2024-06-17",
+      "downloads": "2",
+      "downloads_number": 2,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2-57B-A14B-Instruct-GGUF"
+    },
+    {
+      "name": "Qwen/Qwen2-57B-A14B",
+      "size": 57.0,
+      "type": "Text Generation",
+      "update_time": "2024-06-16",
+      "update_time_standardized": "2024-06-16",
+      "downloads": "11400",
+      "downloads_number": 11400,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2-57B-A14B"
+    },
+    {
+      "name": "Qwen/Qwen1.5-MoE-A2.7B-Chat-GPTQ-Int4",
+      "size": 2.7,
+      "type": "Text Generation",
+      "update_time": "2024-06-09",
+      "update_time_standardized": "2024-06-09",
+      "downloads": "3200",
+      "downloads_number": 3200,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen1.5-MoE-A2.7B-Chat-GPTQ-Int4"
+    },
+    {
+      "name": "Qwen/Qwen2-7B",
+      "size": 7.0,
+      "type": "Text Generation",
+      "update_time": "2024-06-06",
+      "update_time_standardized": "2024-06-06",
+      "downloads": "68300",
+      "downloads_number": 68300,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2-7B"
+    },
+    {
+      "name": "Qwen/Qwen2-1.5B-Instruct",
+      "size": 1.5,
+      "type": "Text Generation",
+      "update_time": "2024-06-06",
+      "update_time_standardized": "2024-06-06",
+      "downloads": "765000",
+      "downloads_number": 765000,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2-1.5B-Instruct"
+    },
+    {
+      "name": "Qwen/Qwen2-1.5B",
+      "size": 1.5,
+      "type": "Text Generation",
+      "update_time": "2024-06-06",
+      "update_time_standardized": "2024-06-06",
+      "downloads": "84100",
+      "downloads_number": 84100,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2-1.5B"
+    },
+    {
+      "name": "Qwen/Qwen2-1.5B-Instruct-MLX",
+      "size": 1.5,
+      "type": "Text Generation",
+      "update_time": "2024-06-06",
+      "update_time_standardized": "2024-06-06",
+      "downloads": "2",
+      "downloads_number": 2,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2-1.5B-Instruct-MLX"
+    },
+    {
+      "name": "Qwen/Qwen2-0.5B-Instruct-MLX",
+      "size": 0.5,
+      "type": "Text Generation",
+      "update_time": "2024-06-06",
+      "update_time_standardized": "2024-06-06",
+      "downloads": "1410",
+      "downloads_number": 1410,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen2-0.5B-Instruct-MLX"
+    },
+    {
+      "name": "Qwen/CodeQwen1.5-7B",
+      "size": 7.0,
+      "type": "Text Generation",
+      "update_time": "2024-05-13",
+      "update_time_standardized": "2024-05-13",
+      "downloads": "2640",
+      "downloads_number": 2640,
+      "huggingface_url": "https://huggingface.co/Qwen/CodeQwen1.5-7B"
+    },
+    {
+      "name": "Qwen/Qwen1.5-32B-Chat-AWQ",
+      "size": 32.0,
+      "type": "Text Generation",
+      "update_time": "2024-04-30",
+      "update_time_standardized": "2024-04-30",
+      "downloads": "1",
+      "downloads_number": 1,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen1.5-32B-Chat-AWQ"
+    },
+    {
+      "name": "Qwen/Qwen1.5-MoE-A2.7B-Chat",
+      "size": 2.7,
+      "type": "Text Generation",
+      "update_time": "2024-04-30",
+      "update_time_standardized": "2024-04-30",
+      "downloads": "31300",
+      "downloads_number": 31300,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen1.5-MoE-A2.7B-Chat"
+    },
+    {
+      "name": "Qwen/Qwen1.5-7B-Chat-GPTQ-Int8",
+      "size": 7.0,
+      "type": "Text Generation",
+      "update_time": "2024-04-30",
+      "update_time_standardized": "2024-04-30",
+      "downloads": "1090",
+      "downloads_number": 1090,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen1.5-7B-Chat-GPTQ-Int8"
+    },
+    {
+      "name": "Qwen/Qwen1.5-7B-Chat-GPTQ-Int4",
+      "size": 7.0,
+      "type": "Text Generation",
+      "update_time": "2024-04-30",
+      "update_time_standardized": "2024-04-30",
+      "downloads": "1170",
+      "downloads_number": 1170,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen1.5-7B-Chat-GPTQ-Int4"
+    },
+    {
+      "name": "Qwen/Qwen1.5-7B-Chat-AWQ",
+      "size": 7.0,
+      "type": "Text Generation",
+      "update_time": "2024-04-30",
+      "update_time_standardized": "2024-04-30",
+      "downloads": "1500",
+      "downloads_number": 1500,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen1.5-7B-Chat-AWQ"
+    },
+    {
+      "name": "Qwen/Qwen1.5-72B-Chat-GPTQ-Int8",
+      "size": 72.0,
+      "type": "Text Generation",
+      "update_time": "2024-04-30",
+      "update_time_standardized": "2024-04-30",
+      "downloads": "1",
+      "downloads_number": 1,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen1.5-72B-Chat-GPTQ-Int8"
+    },
+    {
+      "name": "Qwen/Qwen1.5-72B-Chat-GPTQ-Int4",
+      "size": 72.0,
+      "type": "Text Generation",
+      "update_time": "2024-04-30",
+      "update_time_standardized": "2024-04-30",
+      "downloads": "2630",
+      "downloads_number": 2630,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen1.5-72B-Chat-GPTQ-Int4"
+    },
+    {
+      "name": "Qwen/Qwen1.5-72B-Chat-AWQ",
+      "size": 72.0,
+      "type": "Text Generation",
+      "update_time": "2024-04-30",
+      "update_time_standardized": "2024-04-30",
+      "downloads": "1110",
+      "downloads_number": 1110,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen1.5-72B-Chat-AWQ"
+    },
+    {
+      "name": "Qwen/Qwen1.5-4B-Chat-GPTQ-Int8",
+      "size": 4.0,
+      "type": "Text Generation",
+      "update_time": "2024-04-30",
+      "update_time_standardized": "2024-04-30",
+      "downloads": "1",
+      "downloads_number": 1,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen1.5-4B-Chat-GPTQ-Int8"
+    },
+    {
+      "name": "Qwen/Qwen1.5-4B-Chat-GPTQ-Int4",
+      "size": 4.0,
+      "type": "Text Generation",
+      "update_time": "2024-04-30",
+      "update_time_standardized": "2024-04-30",
+      "downloads": "1",
+      "downloads_number": 1,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen1.5-4B-Chat-GPTQ-Int4"
+    },
+    {
+      "name": "Qwen/Qwen1.5-4B-Chat-AWQ",
+      "size": 4.0,
+      "type": "Text Generation",
+      "update_time": "2024-04-30",
+      "update_time_standardized": "2024-04-30",
+      "downloads": "1830",
+      "downloads_number": 1830,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen1.5-4B-Chat-AWQ"
+    },
+    {
+      "name": "Qwen/Qwen1.5-4B-Chat",
+      "size": 4.0,
+      "type": "Text Generation",
+      "update_time": "2024-04-30",
+      "update_time_standardized": "2024-04-30",
+      "downloads": "143000",
+      "downloads_number": 143000,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen1.5-4B-Chat"
+    },
+    {
+      "name": "Qwen/Qwen1.5-7B-Chat",
+      "size": 7.0,
+      "type": "Text Generation",
+      "update_time": "2024-04-30",
+      "update_time_standardized": "2024-04-30",
+      "downloads": "19700",
+      "downloads_number": 19700,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen1.5-7B-Chat"
+    },
+    {
+      "name": "Qwen/Qwen1.5-32B-Chat-GPTQ-Int4",
+      "size": 32.0,
+      "type": "Text Generation",
+      "update_time": "2024-04-30",
+      "update_time_standardized": "2024-04-30",
+      "downloads": "2460",
+      "downloads_number": 2460,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen1.5-32B-Chat-GPTQ-Int4"
+    },
+    {
+      "name": "Qwen/Qwen1.5-32B-Chat",
+      "size": 32.0,
+      "type": "Text Generation",
+      "update_time": "2024-04-30",
+      "update_time_standardized": "2024-04-30",
+      "downloads": "26600",
+      "downloads_number": 26600,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen1.5-32B-Chat"
+    },
+    {
+      "name": "Qwen/Qwen1.5-14B-Chat-GPTQ-Int8",
+      "size": 14.0,
+      "type": "Text Generation",
+      "update_time": "2024-04-30",
+      "update_time_standardized": "2024-04-30",
+      "downloads": "1",
+      "downloads_number": 1,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen1.5-14B-Chat-GPTQ-Int8"
+    },
+    {
+      "name": "Qwen/Qwen1.5-14B-Chat-GPTQ-Int4",
+      "size": 14.0,
+      "type": "Text Generation",
+      "update_time": "2024-04-30",
+      "update_time_standardized": "2024-04-30",
+      "downloads": "1280",
+      "downloads_number": 1280,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen1.5-14B-Chat-GPTQ-Int4"
+    },
+    {
+      "name": "Qwen/Qwen1.5-14B-Chat-AWQ",
+      "size": 14.0,
+      "type": "Text Generation",
+      "update_time": "2024-04-30",
+      "update_time_standardized": "2024-04-30",
+      "downloads": "1550",
+      "downloads_number": 1550,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen1.5-14B-Chat-AWQ"
+    },
+    {
+      "name": "Qwen/Qwen1.5-14B-Chat",
+      "size": 14.0,
+      "type": "Text Generation",
+      "update_time": "2024-04-30",
+      "update_time_standardized": "2024-04-30",
+      "downloads": "60100",
+      "downloads_number": 60100,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen1.5-14B-Chat"
+    },
+    {
+      "name": "Qwen/Qwen1.5-110B-Chat-GPTQ-Int4",
+      "size": 110.0,
+      "type": "Text Generation",
+      "update_time": "2024-04-30",
+      "update_time_standardized": "2024-04-30",
+      "downloads": "1040",
+      "downloads_number": 1040,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen1.5-110B-Chat-GPTQ-Int4"
+    },
+    {
+      "name": "Qwen/Qwen1.5-110B-Chat-AWQ",
+      "size": 110.0,
+      "type": "Text Generation",
+      "update_time": "2024-04-30",
+      "update_time_standardized": "2024-04-30",
+      "downloads": "1",
+      "downloads_number": 1,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen1.5-110B-Chat-AWQ"
+    },
+    {
+      "name": "Qwen/Qwen1.5-110B-Chat",
+      "size": 110.0,
+      "type": "Text Generation",
+      "update_time": "2024-04-30",
+      "update_time_standardized": "2024-04-30",
+      "downloads": "3610",
+      "downloads_number": 3610,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen1.5-110B-Chat"
+    },
+    {
+      "name": "Qwen/Qwen1.5-1.8B-Chat-GPTQ-Int8",
+      "size": 1.8,
+      "type": "Text Generation",
+      "update_time": "2024-04-30",
+      "update_time_standardized": "2024-04-30",
+      "downloads": "1",
+      "downloads_number": 1,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen1.5-1.8B-Chat-GPTQ-Int8"
+    },
+    {
+      "name": "Qwen/Qwen1.5-1.8B-Chat-GPTQ-Int4",
+      "size": 1.8,
+      "type": "Text Generation",
+      "update_time": "2024-04-30",
+      "update_time_standardized": "2024-04-30",
+      "downloads": "1100",
+      "downloads_number": 1100,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen1.5-1.8B-Chat-GPTQ-Int4"
+    },
+    {
+      "name": "Qwen/Qwen1.5-1.8B-Chat",
+      "size": 1.8,
+      "type": "Text Generation",
+      "update_time": "2024-04-30",
+      "update_time_standardized": "2024-04-30",
+      "downloads": "44400",
+      "downloads_number": 44400,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen1.5-1.8B-Chat"
+    },
+    {
+      "name": "Qwen/Qwen1.5-0.5B-Chat-GPTQ-Int8",
+      "size": 0.5,
+      "type": "Text Generation",
+      "update_time": "2024-04-30",
+      "update_time_standardized": "2024-04-30",
+      "downloads": "1100",
+      "downloads_number": 1100,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen1.5-0.5B-Chat-GPTQ-Int8"
+    },
+    {
+      "name": "Qwen/Qwen1.5-0.5B-Chat-GPTQ-Int4",
+      "size": 0.5,
+      "type": "Text Generation",
+      "update_time": "2024-04-30",
+      "update_time_standardized": "2024-04-30",
+      "downloads": "1040",
+      "downloads_number": 1040,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen1.5-0.5B-Chat-GPTQ-Int4"
+    },
+    {
+      "name": "Qwen/Qwen1.5-0.5B-Chat-AWQ",
+      "size": 0.5,
+      "type": "Text Generation",
+      "update_time": "2024-04-30",
+      "update_time_standardized": "2024-04-30",
+      "downloads": "1",
+      "downloads_number": 1,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen1.5-0.5B-Chat-AWQ"
+    },
+    {
+      "name": "Qwen/Qwen1.5-0.5B-Chat",
+      "size": 0.5,
+      "type": "Text Generation",
+      "update_time": "2024-04-30",
+      "update_time_standardized": "2024-04-30",
+      "downloads": "156000",
+      "downloads_number": 156000,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen1.5-0.5B-Chat"
+    },
+    {
+      "name": "Qwen/CodeQwen1.5-7B-Chat-AWQ",
+      "size": 7.0,
+      "type": "Text Generation",
+      "update_time": "2024-04-30",
+      "update_time_standardized": "2024-04-30",
+      "downloads": "1",
+      "downloads_number": 1,
+      "huggingface_url": "https://huggingface.co/Qwen/CodeQwen1.5-7B-Chat-AWQ"
+    },
+    {
+      "name": "Qwen/CodeQwen1.5-7B-Chat",
+      "size": 7.0,
+      "type": "Text Generation",
+      "update_time": "2024-04-30",
+      "update_time_standardized": "2024-04-30",
+      "downloads": "3830",
+      "downloads_number": 3830,
+      "huggingface_url": "https://huggingface.co/Qwen/CodeQwen1.5-7B-Chat"
+    },
+    {
+      "name": "Qwen/Qwen1.5-1.8B-Chat-AWQ",
+      "size": 1.8,
+      "type": "Text Generation",
+      "update_time": "2024-04-30",
+      "update_time_standardized": "2024-04-30",
+      "downloads": "1",
+      "downloads_number": 1,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen1.5-1.8B-Chat-AWQ"
+    },
+    {
+      "name": "Qwen/Qwen1.5-110B-Chat-GGUF",
+      "size": 110.0,
+      "type": "Text Generation",
+      "update_time": "2024-04-30",
+      "update_time_standardized": "2024-04-30",
+      "downloads": "1",
+      "downloads_number": 1,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen1.5-110B-Chat-GGUF"
+    },
+    {
+      "name": "Qwen/Qwen1.5-110B",
+      "size": 110.0,
+      "type": "Text Generation",
+      "update_time": "2024-04-26",
+      "update_time_standardized": "2024-04-26",
+      "downloads": "1450",
+      "downloads_number": 1450,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen1.5-110B"
+    },
+    {
+      "name": "Qwen/CodeQwen1.5-7B-AWQ",
+      "size": 7.0,
+      "type": "Text Generation",
+      "update_time": "2024-04-23",
+      "update_time_standardized": "2024-04-23",
+      "downloads": "1",
+      "downloads_number": 1,
+      "huggingface_url": "https://huggingface.co/Qwen/CodeQwen1.5-7B-AWQ"
+    },
+    {
+      "name": "Qwen/CodeQwen1.5-7B-Chat-GGUF",
+      "size": 7.0,
+      "type": "Text Generation",
+      "update_time": "2024-04-23",
+      "update_time_standardized": "2024-04-23",
+      "downloads": "1330",
+      "downloads_number": 1330,
+      "huggingface_url": "https://huggingface.co/Qwen/CodeQwen1.5-7B-Chat-GGUF"
+    },
+    {
+      "name": "Qwen/Qwen1.5-MoE-A2.7B",
+      "size": 2.7,
+      "type": "Text Generation",
+      "update_time": "2024-04-18",
+      "update_time_standardized": "2024-04-18",
+      "downloads": "46600",
+      "downloads_number": 46600,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen1.5-MoE-A2.7B"
+    },
+    {
+      "name": "Qwen/Qwen1.5-72B-Chat-GGUF",
+      "size": 72.0,
+      "type": "Text Generation",
+      "update_time": "2024-04-09",
+      "update_time_standardized": "2024-04-09",
+      "downloads": "1",
+      "downloads_number": 1,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen1.5-72B-Chat-GGUF"
+    },
+    {
+      "name": "Qwen/Qwen1.5-14B-Chat-GGUF",
+      "size": 14.0,
+      "type": "Text Generation",
+      "update_time": "2024-04-09",
+      "update_time_standardized": "2024-04-09",
+      "downloads": "1540",
+      "downloads_number": 1540,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen1.5-14B-Chat-GGUF"
+    },
+    {
+      "name": "Qwen/Qwen1.5-7B-Chat-GGUF",
+      "size": 7.0,
+      "type": "Text Generation",
+      "update_time": "2024-04-09",
+      "update_time_standardized": "2024-04-09",
+      "downloads": "3470",
+      "downloads_number": 3470,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen1.5-7B-Chat-GGUF"
+    },
+    {
+      "name": "Qwen/Qwen1.5-4B-Chat-GGUF",
+      "size": 4.0,
+      "type": "Text Generation",
+      "update_time": "2024-04-09",
+      "update_time_standardized": "2024-04-09",
+      "downloads": "1540",
+      "downloads_number": 1540,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen1.5-4B-Chat-GGUF"
+    },
+    {
+      "name": "Qwen/Qwen1.5-1.8B-Chat-GGUF",
+      "size": 1.8,
+      "type": "Text Generation",
+      "update_time": "2024-04-09",
+      "update_time_standardized": "2024-04-09",
+      "downloads": "1840",
+      "downloads_number": 1840,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen1.5-1.8B-Chat-GGUF"
+    },
+    {
+      "name": "Qwen/Qwen1.5-0.5B-Chat-GGUF",
+      "size": 0.5,
+      "type": "Text Generation",
+      "update_time": "2024-04-09",
+      "update_time_standardized": "2024-04-09",
+      "downloads": "4400",
+      "downloads_number": 4400,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen1.5-0.5B-Chat-GGUF"
+    },
+    {
+      "name": "Qwen/Qwen1.5-32B-Chat-GGUF",
+      "size": 32.0,
+      "type": "Text Generation",
+      "update_time": "2024-04-09",
+      "update_time_standardized": "2024-04-09",
+      "downloads": "1",
+      "downloads_number": 1,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen1.5-32B-Chat-GGUF"
+    },
+    {
+      "name": "Qwen/Qwen1.5-32B",
+      "size": 32.0,
+      "type": "Text Generation",
+      "update_time": "2024-04-05",
+      "update_time_standardized": "2024-04-05",
+      "downloads": "14800",
+      "downloads_number": 14800,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen1.5-32B"
+    },
+    {
+      "name": "Qwen/Qwen1.5-72B",
+      "size": 72.0,
+      "type": "Text Generation",
+      "update_time": "2024-04-05",
+      "update_time_standardized": "2024-04-05",
+      "downloads": "9930",
+      "downloads_number": 9930,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen1.5-72B"
+    },
+    {
+      "name": "Qwen/Qwen1.5-14B",
+      "size": 14.0,
+      "type": "Text Generation",
+      "update_time": "2024-04-05",
+      "update_time_standardized": "2024-04-05",
+      "downloads": "50500",
+      "downloads_number": 50500,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen1.5-14B"
+    },
+    {
+      "name": "Qwen/Qwen1.5-7B",
+      "size": 7.0,
+      "type": "Text Generation",
+      "update_time": "2024-04-05",
+      "update_time_standardized": "2024-04-05",
+      "downloads": "83700",
+      "downloads_number": 83700,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen1.5-7B"
+    },
+    {
+      "name": "Qwen/Qwen1.5-4B",
+      "size": 4.0,
+      "type": "Text Generation",
+      "update_time": "2024-04-05",
+      "update_time_standardized": "2024-04-05",
+      "downloads": "20900",
+      "downloads_number": 20900,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen1.5-4B"
+    },
+    {
+      "name": "Qwen/Qwen1.5-1.8B",
+      "size": 1.8,
+      "type": "Text Generation",
+      "update_time": "2024-04-05",
+      "update_time_standardized": "2024-04-05",
+      "downloads": "25800",
+      "downloads_number": 25800,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen1.5-1.8B"
+    },
+    {
+      "name": "Qwen/Qwen1.5-0.5B",
+      "size": 0.5,
+      "type": "Text Generation",
+      "update_time": "2024-04-05",
+      "update_time_standardized": "2024-04-05",
+      "downloads": "44100",
+      "downloads_number": 44100,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen1.5-0.5B"
+    },
+    {
+      "name": "Qwen/Qwen-7B-Chat",
+      "size": 7.0,
+      "type": "Text Generation",
+      "update_time": "2024-03-19",
+      "update_time_standardized": "2024-03-19",
+      "downloads": "67700",
+      "downloads_number": 67700,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen-7B-Chat"
+    },
+    {
+      "name": "Qwen/Qwen-VL-Chat-Int4",
+      "size": 4.0,
+      "type": "Text Generation",
+      "update_time": "2024-01-25",
+      "update_time_standardized": "2024-01-25",
+      "downloads": "2530",
+      "downloads_number": 2530,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen-VL-Chat-Int4"
+    },
+    {
+      "name": "Qwen/Qwen-VL-Chat",
+      "size": null,
+      "type": "Text Generation",
+      "update_time": "2024-01-25",
+      "update_time_standardized": "2024-01-25",
+      "downloads": "97500",
+      "downloads_number": 97500,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen-VL-Chat"
+    },
+    {
+      "name": "Qwen/Qwen-VL",
+      "size": null,
+      "type": "Text Generation",
+      "update_time": "2024-01-25",
+      "update_time_standardized": "2024-01-25",
+      "downloads": "62400",
+      "downloads_number": 62400,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen-VL"
+    },
+    {
+      "name": "Qwen/Qwen-tokenizer",
+      "size": null,
+      "type": "Text Generation",
+      "update_time": "2024-01-13",
+      "update_time_standardized": "2024-01-13",
+      "downloads": "13",
+      "downloads_number": 13,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen-tokenizer"
+    },
+    {
+      "name": "Qwen/Qwen-72B-Chat-Int4",
+      "size": 72.0,
+      "type": "Text Generation",
+      "update_time": "2024-01-04",
+      "update_time_standardized": "2024-01-04",
+      "downloads": "72",
+      "downloads_number": 72,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen-72B-Chat-Int4"
+    },
+    {
+      "name": "Qwen/Qwen-7B",
+      "size": 7.0,
+      "type": "Text Generation",
+      "update_time": "2024-01-04",
+      "update_time_standardized": "2024-01-04",
+      "downloads": "12700",
+      "downloads_number": 12700,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen-7B"
+    },
+    {
+      "name": "Qwen/Qwen-72B-Chat-Int8",
+      "size": 72.0,
+      "type": "Text Generation",
+      "update_time": "2024-01-04",
+      "update_time_standardized": "2024-01-04",
+      "downloads": "72",
+      "downloads_number": 72,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen-72B-Chat-Int8"
+    },
+    {
+      "name": "Qwen/Qwen-7B-Chat-Int4",
+      "size": 7.0,
+      "type": "Text Generation",
+      "update_time": "2024-01-04",
+      "update_time_standardized": "2024-01-04",
+      "downloads": "1720",
+      "downloads_number": 1720,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen-7B-Chat-Int4"
+    },
+    {
+      "name": "Qwen/Qwen-7B-Chat-Int8",
+      "size": 7.0,
+      "type": "Text Generation",
+      "update_time": "2023-12-13",
+      "update_time_standardized": "2023-12-13",
+      "downloads": "1080",
+      "downloads_number": 1080,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen-7B-Chat-Int8"
+    },
+    {
+      "name": "Qwen/Qwen-14B-Chat-Int8",
+      "size": 14.0,
+      "type": "Text Generation",
+      "update_time": "2023-12-13",
+      "update_time_standardized": "2023-12-13",
+      "downloads": "14",
+      "downloads_number": 14,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen-14B-Chat-Int8"
+    },
+    {
+      "name": "Qwen/Qwen-14B-Chat-Int4",
+      "size": 14.0,
+      "type": "Text Generation",
+      "update_time": "2023-12-13",
+      "update_time_standardized": "2023-12-13",
+      "downloads": "1140",
+      "downloads_number": 1140,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen-14B-Chat-Int4"
+    },
+    {
+      "name": "Qwen/Qwen-14B-Chat",
+      "size": 14.0,
+      "type": "Text Generation",
+      "update_time": "2023-12-13",
+      "update_time_standardized": "2023-12-13",
+      "downloads": "3330",
+      "downloads_number": 3330,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen-14B-Chat"
+    },
+    {
+      "name": "Qwen/Qwen-14B",
+      "size": 14.0,
+      "type": "Text Generation",
+      "update_time": "2023-12-13",
+      "update_time_standardized": "2023-12-13",
+      "downloads": "4160",
+      "downloads_number": 4160,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen-14B"
+    },
+    {
+      "name": "Qwen/Qwen-1_8B-Chat-Int8",
+      "size": 8.0,
+      "type": "Text Generation",
+      "update_time": "2023-12-13",
+      "update_time_standardized": "2023-12-13",
+      "downloads": "1",
+      "downloads_number": 1,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen-1_8B-Chat-Int8"
+    },
+    {
+      "name": "Qwen/Qwen-1_8B-Chat-Int4",
+      "size": 8.0,
+      "type": "Text Generation",
+      "update_time": "2023-12-13",
+      "update_time_standardized": "2023-12-13",
+      "downloads": "1170",
+      "downloads_number": 1170,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen-1_8B-Chat-Int4"
+    },
+    {
+      "name": "Qwen/Qwen-1_8B-Chat",
+      "size": 8.0,
+      "type": "Text Generation",
+      "update_time": "2023-12-13",
+      "update_time_standardized": "2023-12-13",
+      "downloads": "7070",
+      "downloads_number": 7070,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen-1_8B-Chat"
+    },
+    {
+      "name": "Qwen/Qwen-1_8B",
+      "size": 8.0,
+      "type": "Text Generation",
+      "update_time": "2023-12-13",
+      "update_time_standardized": "2023-12-13",
+      "downloads": "4640",
+      "downloads_number": 4640,
+      "huggingface_url": "https://huggingface.co/Qwen/Qwen-1_8B"
+    }
+  ]
+}

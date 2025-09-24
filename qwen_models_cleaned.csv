@@ -1,0 +1,360 @@
+name,size,type,update_time,downloads,page,card_index
+
+
+Qwen/Qwen3-Max,Closed,Text Generation,2025-09-24,0,0,0
+Qwen/Qwen3-VL-235B-A22B-Thinking,236B,Image-Text-to-Text,2025-09-24,39,0,0
+Qwen/Qwen3-VL-235B-A22B-Instruct,236B,Image-Text-to-Text,2025-09-24,23,0,1
+Qwen/Qwen3Guard-Stream-8B,8B,Feature Extraction,2025-09-24,3,0,0
+Qwen/Qwen3Guard-Stream-0.6B,0.6B,Feature Extraction,2025-09-24,3,0,1
+Qwen/Qwen3Guard-Stream-4B,4B,Feature Extraction,2025-09-24,3,0,2
+Qwen/Qwen3Guard-Gen-0.6B,0.6B,Text Generation,2025-09-24,3,0,3
+Qwen/Qwen3Guard-Gen-8B,8B,Text Generation,2025-09-24,3,0,4
+Qwen/Qwen3Guard-Gen-4B,4B,Text Generation,2025-09-24,3,0,5
+Qwen/Qwen3-Omni-30B-A3B-Instruct,30B,Any-to-Any,2025-09-23,1690,0,6
+Qwen/Qwen3-Omni-30B-A3B-Thinking,30B,Any-to-Any,2025-09-23,3,0,7
+Qwen/Qwen3-Omni-30B-A3B-Captioner,30B,Any-to-Any,2025-09-23,3,0,8
+Qwen/Qwen-Image-Edit-2509,—,Image-to-Image,2025-09-22,250,0,9
+Qwen/Qwen3-Next-80B-A3B-Thinking-FP8,80B,Text Generation,2025-09-23,3770,0,10
+Qwen/Qwen3-Next-80B-A3B-Instruct-FP8,80B,Text Generation,2025-09-23,2890,0,11
+Qwen/Qwen3-Next-80B-A3B-Instruct,80B,Text Generation,2025-09-18,1020000,0,12
+Qwen/Qwen3-4B-Instruct-2507-FP8,4B,Text Generation,2025-09-17,43100,0,13
+Qwen/Qwen3-4B-Instruct-2507,4B,Text Generation,2025-09-17,1510000,0,14
+Qwen/Qwen3-30B-A3B-Instruct-2507,30B,Text Generation,2025-09-17,1200000,0,15
+Qwen/Qwen3-30B-A3B-Instruct-2507-FP8,30B,Text Generation,2025-09-17,148000,0,16
+Qwen/Qwen3-235B-A22B-Instruct-2507-FP8,235B,Text Generation,2025-09-17,164000,0,17
+Qwen/Qwen3-235B-A22B-Instruct-2507,235B,Text Generation,2025-09-17,103000,0,18
+Qwen/Qwen3-Next-80B-A3B-Thinking,80B,Text Generation,2025-09-16,464000,0,19
+Qwen/Qwen3-Max-Preview,Closed,Text Generation,2025-09-24,0,0,0
+Qwen/Qwen3-4B-MLX-4bit,4B,Text Generation,2025-08-30,24200,0,20
+Qwen/Qwen-Image-Edit,—,Image-to-Image,2025-08-25,285000,0,21
+Qwen/Qwen3-Coder-480B-A35B-Instruct-FP8,480B,Text Generation,2025-08-21,129000,0,22
+Qwen/Qwen3-Coder-30B-A3B-Instruct-FP8,30B,Text Generation,2025-08-21,88600,0,23
+Qwen/Qwen3-Coder-30B-A3B-Instruct,30B,Text Generation,2025-08-21,386000,0,24
+Qwen/Qwen3-Coder-480B-A35B-Instruct,480B,Text Generation,2025-08-21,258000,0,25
+Qwen/Qwen-Image,—,Image-to-Image,2025-08-18,124000,0,26
+Qwen/Qwen3-30B-A3B-Thinking-2507,30B,Text Generation,2025-08-17,189000,0,27
+Qwen/Qwen3-235B-A22B-Thinking-2507,235B,Text Generation,2025-08-17,67400,0,28
+Qwen/Qwen3-4B-Thinking-2507,4B,Text Generation,2025-08-06,327000,0,29
+Qwen/Qwen3-4B-Thinking-2507-FP8,4B,Text Generation,2025-08-06,208000,1,0
+Qwen/Qwen3-Embedding-4B-GGUF,4B,Text Generation,2025-08-03,11200,1,1
+Qwen/Qwen3-30B-A3B-Thinking-2507-FP8,30B,Text Generation,2025-07-30,25800,1,2
+Qwen/Qwen3-235B-A22B-Thinking-2507-FP8,235B,Text Generation,2025-07-30,30500,1,3
+Qwen/Qwen3-0.6B-MLX-4bit,0.6B,Text Generation,2025-07-29,1690,1,4
+Qwen/Qwen3-1.7B-Base,1.7B,Text Generation,2025-07-26,217000,1,5
+Qwen/Qwen3-14B,14B,Text Generation,2025-07-26,1150000,1,6
+Qwen/Qwen3-8B,8B,Text Generation,2025-07-26,2049999,1,7
+Qwen/Qwen3-4B,4B,Text Generation,2025-07-26,1280000,1,8
+Qwen/Qwen3-1.7B,1.7B,Text Generation,2025-07-26,917000,1,9
+Qwen/Qwen3-0.6B,0.6B,Text Generation,2025-07-26,6080000,1,10
+Qwen/Qwen3-235B-A22B-FP8,235B,Text Generation,2025-07-26,99300,1,11
+Qwen/Qwen3-30B-A3B-FP8,30B,Text Generation,2025-07-26,139000,1,12
+Qwen/Qwen3-32B-FP8,32B,Text Generation,2025-07-26,66000,1,13
+Qwen/Qwen3-14B-FP8,14B,Text Generation,2025-07-26,57500,1,14
+Qwen/Qwen3-8B-FP8,8B,Text Generation,2025-07-26,44400,1,15
+Qwen/Qwen3-4B-FP8,4B,Text Generation,2025-07-26,55300,1,16
+Qwen/Qwen3-1.7B-FP8,1.7B,Text Generation,2025-07-26,5410,1,17
+Qwen/Qwen3-0.6B-FP8,0.6B,Text Generation,2025-07-26,46800,1,18
+Qwen/Qwen3-0.6B-Base,0.6B,Text Generation,2025-07-26,111000,1,19
+Qwen/Qwen3-4B-Base,4B,Text Generation,2025-07-26,505000,1,20
+Qwen/Qwen3-14B-Base,14B,Text Generation,2025-07-26,206000,1,21
+Qwen/Qwen3-30B-A3B-Base,30B,Text Generation,2025-07-26,151000,1,22
+Qwen/Qwen3-32B,32B,Text Generation,2025-07-26,2970000,1,23
+Qwen/Qwen3-30B-A3B,30B,Text Generation,2025-07-26,275000,1,24
+Qwen/Qwen3-235B-A22B,235B,Text Generation,2025-07-26,181000,1,25
+Qwen/Qwen3-Embedding-8B-GGUF,8B,Text Generation,2025-07-15,13500,1,26
+Qwen/Qwen3-Embedding-0.6B-GGUF,0.6B,Text Generation,2025-07-14,33600,1,27
+Qwen/Qwen3-14B-MLX-bf16,14B,Text Generation,2025-07-07,3,1,28
+Qwen/Qwen3-Embedding-8B,8B,Feature Extraction,2025-07-07,486000,1,29
+Qwen/Qwen3-4B-MLX-6bit,4B,Text Generation,2025-07-07,3,2,0
+Qwen/Qwen3-4B-MLX-8bit,4B,Text Generation,2025-07-07,3,2,1
+Qwen/Qwen3-4B-MLX-bf16,4B,Text Generation,2025-07-07,3,2,2
+Qwen/Qwen3-0.6B-MLX-6bit,0.6B,Text Generation,2025-07-07,3,2,3
+Qwen/Qwen3-0.6B-MLX-8bit,0.6B,Text Generation,2025-07-07,3,2,4
+Qwen/Qwen3-0.6B-MLX-bf16,0.6B,Text Generation,2025-07-07,1520,2,5
+Qwen/Qwen3-1.7B-MLX-4bit,1.7B,Text Generation,2025-07-07,3,2,6
+Qwen/Qwen3-1.7B-MLX-6bit,1.7B,Text Generation,2025-07-07,1100,2,7
+Qwen/Qwen3-1.7B-MLX-8bit,1.7B,Text Generation,2025-07-07,3,2,8
+Qwen/Qwen3-1.7B-MLX-bf16,1.7B,Text Generation,2025-07-07,3,2,9
+Qwen/Qwen3-8B-MLX-4bit,8B,Text Generation,2025-07-07,3,2,10
+Qwen/Qwen3-8B-MLX-6bit,8B,Text Generation,2025-07-07,3,2,11
+Qwen/Qwen3-8B-MLX-8bit,8B,Text Generation,2025-07-07,3,2,12
+Qwen/Qwen3-8B-MLX-bf16,8B,Text Generation,2025-07-07,1180,2,13
+Qwen/Qwen3-14B-MLX-6bit,14B,Text Generation,2025-07-07,3,2,14
+Qwen/Qwen3-14B-MLX-8bit,14B,Text Generation,2025-07-07,3,2,15
+Qwen/Qwen3-14B-MLX-4bit,14B,Text Generation,2025-07-07,3,2,16
+Qwen/Qwen3-32B-MLX-bf16,32B,Text Generation,2025-07-07,3,2,17
+Qwen/Qwen3-32B-MLX-8bit,32B,Text Generation,2025-07-07,3,2,18
+Qwen/Qwen3-32B-MLX-6bit,32B,Text Generation,2025-07-07,3,2,19
+Qwen/Qwen3-32B-MLX-4bit,32B,Text Generation,2025-07-07,3,2,20
+Qwen/Qwen3-30B-A3B-MLX-bf16,30B,Text Generation,2025-07-07,3,2,21
+Qwen/Qwen3-30B-A3B-MLX-8bit,30B,Text Generation,2025-07-07,3,2,22
+Qwen/Qwen3-30B-A3B-MLX-6bit,30B,Text Generation,2025-07-07,3,2,23
+Qwen/Qwen3-30B-A3B-MLX-4bit,30B,Text Generation,2025-07-07,3,2,24
+Qwen/Qwen3-235B-A22B-MLX-bf16,235B,Text Generation,2025-07-07,3,2,25
+Qwen/Qwen3-235B-A22B-MLX-6bit,235B,Text Generation,2025-07-07,3,2,26
+Qwen/Qwen3-235B-A22B-MLX-4bit,235B,Text Generation,2025-07-07,1290,2,27
+Qwen/Qwen3-235B-A22B-MLX-8bit,235B,Text Generation,2025-07-07,3,2,28
+Qwen/Qwen3-Embedding-0.6B,0.6B,Feature Extraction,2025-06-20,3400000,2,29
+Qwen/Qwen3-Embedding-4B,4B,Feature Extraction,2025-06-20,463000,3,0
+Qwen/Qwen3-Reranker-8B,8B,Text Ranking,2025-06-09,61900,3,1
+Qwen/Qwen3-Reranker-4B,4B,Text Ranking,2025-06-09,52800,3,2
+Qwen/Qwen3-Reranker-0.6B,0.6B,Text Ranking,2025-06-09,223000,3,3
+Qwen/Qwen2.5-VL-72B-Instruct,72B,Image-Text-to-Text,2025-06-06,665000,3,4
+Qwen/Qwen3-4B-GGUF,4B,Text Generation,2025-05-21,12400,3,5
+Qwen/Qwen3-8B-GGUF,8B,Text Generation,2025-05-21,26100,3,6
+Qwen/Qwen3-235B-A22B-GGUF,235B,Text Generation,2025-05-21,3,3,7
+Qwen/Qwen3-30B-A3B-GGUF,30B,Text Generation,2025-05-21,5960,3,8
+Qwen/Qwen3-14B-AWQ,14B,Text Generation,2025-05-21,273000,3,9
+Qwen/Qwen3-32B-AWQ,32B,Text Generation,2025-05-21,355000,3,10
+Qwen/Qwen3-4B-AWQ,4B,Text Generation,2025-05-21,156000,3,11
+Qwen/Qwen3-8B-AWQ,8B,Text Generation,2025-05-21,163000,3,12
+Qwen/Qwen3-235B-A22B-GPTQ-Int4,235B,Text Generation,2025-05-21,2330,3,13
+Qwen/Qwen3-30B-A3B-GPTQ-Int4,30B,Text Generation,2025-05-21,128000,3,14
+Qwen/Qwen3-0.6B-GPTQ-Int8,0.6B,Text Generation,2025-05-21,3130,3,15
+Qwen/Qwen3-1.7B-GPTQ-Int8,1.7B,Text Generation,2025-05-21,2660,3,16
+Qwen/Qwen3-8B-Base,8B,Text Generation,2025-05-21,193000,3,17
+Qwen/WorldPM-72B-HelpSteer2,72B,Text Classification,2025-05-17,72,3,18
+Qwen/WorldPM-72B-UltraFeedback,72B,Text Classification,2025-05-17,1710,3,19
+Qwen/WorldPM-72B-RLHFLow,72B,Text Classification,2025-05-17,72,3,20
+Qwen/WorldPM-72B,72B,Text Classification,2025-05-17,1170,3,21
+Qwen/Qwen2.5-Omni-7B-AWQ,7B,Any-to-Any,2025-05-15,24200,3,22
+Qwen/Qwen2.5-Omni-7B-GPTQ-Int4,7B,Any-to-Any,2025-05-15,2,3,23
+Qwen/Qwen3-32B-GGUF,32B,Text Generation,2025-05-09,7360,3,24
+Qwen/Qwen3-14B-GGUF,14B,Text Generation,2025-05-09,10800,3,25
+Qwen/Qwen3-1.7B-GGUF,1.7B,Text Generation,2025-05-09,4000,3,26
+Qwen/Qwen3-0.6B-GGUF,0.6B,Text Generation,2025-05-09,13400,3,27
+Qwen/Qwen2.5-Omni-7B,7B,Any-to-Any,2025-04-30,176000,3,28
+Qwen/Qwen2.5-Omni-3B,3B,Any-to-Any,2025-04-30,362000,3,29
+Qwen/Qwen2.5-VL-32B-Instruct,32B,Image-Text-to-Text,2025-04-14,668000,4,0
+Qwen/Qwen2.5-VL-32B-Instruct-AWQ,32B,Image-Text-to-Text,2025-04-06,66200,4,1
+Qwen/Qwen2.5-VL-7B-Instruct-AWQ,7B,Image-Text-to-Text,2025-04-06,719000,4,2
+Qwen/Qwen2.5-VL-3B-Instruct-AWQ,3B,Image-Text-to-Text,2025-04-06,373000,4,3
+Qwen/Qwen2.5-VL-3B-Instruct,3B,Image-Text-to-Text,2025-04-06,4050000,4,4
+Qwen/Qwen2.5-VL-7B-Instruct,7B,Image-Text-to-Text,2025-04-06,1260,4,5
+Qwen/QwQ-32B-GGUF,32B,Text Generation,2025-03-13,4400,4,6
+Qwen/QwQ-32B-AWQ,32B,Text Generation,2025-03-11,8390,4,7
+Qwen/QwQ-32B,32B,Text Generation,2025-03-11,92000,4,8
+Qwen/Qwen2.5-VL-72B-Instruct-AWQ,72B,Image-Text-to-Text,2025-03-07,69800,4,9
+Qwen/Qwen2-VL-7B-Instruct,7B,Image-Text-to-Text,2025-02-06,845000,4,10
+Qwen/Qwen2-VL-72B-Instruct,72B,Image-Text-to-Text,2025-02-06,11900,4,11
+Qwen/Qwen2.5-7B-Instruct-1M,7B,Text Generation,2025-01-29,43600,4,12
+Qwen/Qwen2.5-14B-Instruct-1M,14B,Text Generation,2025-01-29,28800,4,13
+Qwen/Qwen2.5-Math-7B-PRM800K,7B,Text Classification,2025-01-17,800000,4,14
+Qwen/Qwen2.5-Math-PRM-72B,72B,Text Classification,2025-01-17,1120,4,15
+Qwen/Qwen2.5-Math-PRM-7B,7B,Text Classification,2025-01-17,25000,4,16
+Qwen/Qwen2.5-Coder-14B-Instruct-GPTQ-Int8,14B,Text Generation,2025-01-12,2240,4,17
+Qwen/Qwen2.5-Coder-14B-Instruct-AWQ,14B,Text Generation,2025-01-12,20900,4,18
+Qwen/Qwen-Audio-Chat,8B,Text Generation,2025-01-12,3160,4,19
+Qwen/Qwen2-VL-7B,7B,Image-Text-to-Text,2025-01-12,3970,4,20
+Qwen/Qwen2.5-7B-Instruct,7B,Text Generation,2025-01-12,6890000,4,21
+Qwen/Qwen2.5-Coder-32B-Instruct-GGUF,32B,Text Generation,2025-01-12,5620,4,22
+Qwen/Qwen2.5-72B-Instruct,72B,Text Generation,2025-01-12,331000,4,23
+Qwen/Qwen2-Audio-7B-Instruct,7B,Audio-Text-to-Text,2025-01-12,313000,4,24
+Qwen/Qwen2.5-Coder-1.5B-Instruct,1.5B,Text Generation,2025-01-12,150000,4,25
+Qwen/Qwen2.5-Coder-3B-Instruct,3B,Text Generation,2025-01-12,58100,4,26
+Qwen/Qwen2.5-Coder-7B-Instruct,7B,Text Generation,2025-01-12,891000,4,27
+Qwen/Qwen2.5-Coder-14B-Instruct,14B,Text Generation,2025-01-12,50800,4,28
+Qwen/Qwen2.5-Coder-32B-Instruct,32B,Text Generation,2025-01-12,134000,4,29
+Qwen/Qwen2-VL-2B-Instruct,2B,Image-Text-to-Text,2025-01-12,4110000,5,0
+Qwen/QwQ-32B-Preview,32B,Text Generation,2025-01-12,91500,5,1
+Qwen/QVQ-72B-Preview,72B,Image-Text-to-Text,2025-01-12,18000,5,2
+Qwen/Qwen2-VL-2B,2B,Image-Text-to-Text,2024-12-06,6350,5,3
+Qwen/Qwen2-VL-72B,72B,Image-Text-to-Text,2024-12-06,1060,5,4
+Qwen/Qwen2-Audio-7B,7B,Audio-Text-to-Text,2024-11-20,96300,5,5
+Qwen/Qwen-Audio,8B,Text Generation,2024-11-20,2930,5,6
+Qwen/Qwen2.5-Coder-14B-Instruct-GPTQ-Int4,14B,Text Generation,2024-11-18,1860,5,7
+Qwen/Qwen2.5-Coder-32B-Instruct-AWQ,32B,Text Generation,2024-11-18,77700,5,8
+Qwen/Qwen2.5-Coder-32B-Instruct-GPTQ-Int8,32B,Text Generation,2024-11-18,1820,5,9
+Qwen/Qwen2.5-Coder-32B-Instruct-GPTQ-Int4,32B,Text Generation,2024-11-18,4640,5,10
+Qwen/Qwen2.5-Coder-32B,32B,Text Generation,2024-11-18,13200,5,11
+Qwen/Qwen2.5-Coder-14B,14B,Text Generation,2024-11-18,14600,5,12
+Qwen/Qwen2.5-Coder-7B-Instruct-AWQ,7B,Text Generation,2024-11-18,139000,5,13
+Qwen/Qwen2.5-Coder-7B-Instruct-GPTQ-Int8,7B,Text Generation,2024-11-18,1310,5,14
+Qwen/Qwen2.5-Coder-7B-Instruct-GPTQ-Int4,7B,Text Generation,2024-11-18,2440,5,15
+Qwen/Qwen2.5-Coder-7B,7B,Text Generation,2024-11-18,33000,5,16
+Qwen/Qwen2.5-Coder-3B-Instruct-AWQ,3B,Text Generation,2024-11-18,2470,5,17
+Qwen/Qwen2.5-Coder-3B-Instruct-GPTQ-Int8,3B,Text Generation,2024-11-18,2,5,18
+Qwen/Qwen2.5-Coder-3B-Instruct-GPTQ-Int4,3B,Text Generation,2024-11-18,1190,5,19
+Qwen/Qwen2.5-Coder-3B,3B,Text Generation,2024-11-18,22000,5,20
+Qwen/Qwen2.5-Coder-1.5B-Instruct-AWQ,1.5B,Text Generation,2024-11-18,1980,5,21
+Qwen/Qwen2.5-Coder-1.5B-Instruct-GPTQ-Int8,1.5B,Text Generation,2024-11-18,1110,5,22
+Qwen/Qwen2.5-Coder-1.5B-Instruct-GPTQ-Int4,1.5B,Text Generation,2024-11-18,1070,5,23
+Qwen/Qwen2.5-Coder-1.5B,1.5B,Text Generation,2024-11-18,292000,5,24
+Qwen/Qwen2.5-Coder-0.5B-Instruct-AWQ,0.5B,Text Generation,2024-11-18,1210,5,25
+Qwen/Qwen2.5-Coder-0.5B-Instruct-GPTQ-Int8,0.5B,Text Generation,2024-11-18,1060,5,26
+Qwen/Qwen2.5-Coder-0.5B-Instruct-GPTQ-Int4,0.5B,Text Generation,2024-11-18,2,5,27
+Qwen/Qwen2.5-Coder-0.5B-Instruct,0.5B,Text Generation,2024-11-18,28700,5,28
+Qwen/Qwen2.5-Coder-0.5B,0.5B,Text Generation,2024-11-18,20400,5,29
+Qwen/Qwen2.5-Coder-14B-Instruct-GGUF,14B,Text Generation,2024-11-12,9330,6,0
+Qwen/Qwen2.5-Coder-7B-Instruct-GGUF,7B,Text Generation,2024-11-12,27300,6,1
+Qwen/Qwen2.5-Coder-1.5B-Instruct-GGUF,1.5B,Text Generation,2024-11-12,3410,6,2
+Qwen/Qwen2.5-Coder-3B-Instruct-GGUF,3B,Text Generation,2024-11-11,6950,6,3
+Qwen/Qwen2.5-Coder-0.5B-Instruct-GGUF,0.5B,Text Generation,2024-11-11,5500,6,4
+Qwen/Qwen2.5-Math-RM-72B,72B,Text Classification,2024-10-31,41300,6,5
+Qwen/Qwen2-0.5B,0.5B,Text Generation,2024-10-22,288000,6,6
+Qwen/Qwen2.5-7B-Instruct-GPTQ-Int4,7B,Text Generation,2024-10-18,519000,6,7
+Qwen/Qwen2.5-7B-Instruct-GPTQ-Int8,7B,Text Generation,2024-10-18,15400,6,8
+Qwen/Qwen2.5-72B-Instruct-GPTQ-Int4,72B,Text Generation,2024-10-09,12900,6,9
+Qwen/Qwen2.5-72B-Instruct-GPTQ-Int8,72B,Text Generation,2024-10-09,2930,6,10
+Qwen/Qwen2.5-14B-Instruct-GPTQ-Int4,14B,Text Generation,2024-10-09,11800,6,11
+Qwen/Qwen2.5-32B-Instruct-GPTQ-Int4,32B,Text Generation,2024-10-09,124000,6,12
+Qwen/Qwen2.5-32B-Instruct-GPTQ-Int8,32B,Text Generation,2024-10-09,419000,6,13
+Qwen/Qwen2.5-14B-Instruct-GPTQ-Int8,14B,Text Generation,2024-10-09,27300,6,14
+Qwen/Qwen2.5-3B-Instruct-GPTQ-Int4,3B,Text Generation,2024-10-09,2460,6,15
+Qwen/Qwen2.5-3B-Instruct-GPTQ-Int8,3B,Text Generation,2024-10-09,1390,6,16
+Qwen/Qwen2.5-1.5B-Instruct-GPTQ-Int4,1.5B,Text Generation,2024-10-09,11000,6,17
+Qwen/Qwen2.5-0.5B-Instruct-GPTQ-Int8,0.5B,Text Generation,2024-10-09,1630,6,18
+Qwen/Qwen2.5-1.5B-Instruct-GPTQ-Int8,1.5B,Text Generation,2024-10-09,1190,6,19
+Qwen/Qwen2.5-72B-Instruct-AWQ,72B,Text Generation,2024-10-09,303000,6,20
+Qwen/Qwen2.5-0.5B-Instruct-AWQ,0.5B,Text Generation,2024-10-09,6470,6,21
+Qwen/Qwen2.5-1.5B-Instruct-AWQ,1.5B,Text Generation,2024-10-09,60700,6,22
+Qwen/Qwen2.5-3B-Instruct-AWQ,3B,Text Generation,2024-10-09,6510,6,23
+Qwen/Qwen2.5-7B-Instruct-AWQ,7B,Text Generation,2024-10-09,254000,6,24
+Qwen/Qwen2.5-14B-Instruct-AWQ,14B,Text Generation,2024-10-09,38200,6,25
+Qwen/Qwen2.5-32B-Instruct-AWQ,32B,Text Generation,2024-10-09,593000,6,26
+Qwen/Qwen2-72B,72B,Text Generation,2024-10-09,12000,6,27
+Qwen/Qwen-72B,72B,Text Generation,2024-10-09,3690,6,28
+Qwen/Qwen2.5-1.5B,1.5B,Text Generation,2024-10-08,261000,6,29
+Qwen/Qwen-72B-Chat,72B,Text Generation,2024-10-08,1670,7,0
+Qwen/Qwen1.5-72B-Chat,72B,Text Generation,2024-10-08,11000,7,1
+Qwen/Qwen2-72B-Instruct,72B,Text Generation,2024-10-08,42000,7,2
+Qwen/Qwen2.5-32B-Instruct,32B,Text Generation,2024-09-25,394000,7,3
+Qwen/Qwen2.5-14B-Instruct,14B,Text Generation,2024-09-25,1280000,7,4
+Qwen/Qwen2.5-3B-Instruct,3B,Text Generation,2024-09-25,7300000,7,5
+Qwen/Qwen2.5-0.5B-Instruct,0.5B,Text Generation,2024-09-25,1770000,7,6
+Qwen/Qwen2.5-1.5B-Instruct,1.5B,Text Generation,2024-09-25,5060000,7,7
+Qwen/Qwen2-VL-7B-Instruct-AWQ,7B,Image-Text-to-Text,2024-09-25,4090,7,8
+Qwen/Qwen2.5-0.5B,0.5B,Text Generation,2024-09-25,1170000,7,9
+Qwen/Qwen2.5-7B,7B,Text Generation,2024-09-25,1790000,7,10
+Qwen/Qwen2.5-72B,72B,Text Generation,2024-09-25,30200,7,11
+Qwen/Qwen2-VL-72B-Instruct-AWQ,72B,Image-Text-to-Text,2024-09-25,1430,7,12
+Qwen/Qwen2-VL-72B-Instruct-GPTQ-Int8,72B,Image-Text-to-Text,2024-09-24,1090,7,13
+Qwen/Qwen2-VL-72B-Instruct-GPTQ-Int4,72B,Image-Text-to-Text,2024-09-24,1700,7,14
+Qwen/Qwen2.5-Math-7B-Instruct,7B,Text Generation,2024-09-23,31200,7,15
+Qwen/Qwen2.5-Math-72B,72B,Text Generation,2024-09-23,1860,7,16
+Qwen/Qwen2.5-Math-7B,7B,Text Generation,2024-09-23,124000,7,17
+Qwen/Qwen2.5-Math-1.5B-Instruct,1.5B,Text Generation,2024-09-23,46900,7,18
+Qwen/Qwen2.5-Math-1.5B,1.5B,Text Generation,2024-09-23,245000,7,19
+Qwen/Qwen2.5-Math-72B-Instruct,72B,Text Generation,2024-09-23,3210,7,20
+Qwen/Qwen2-VL-7B-Instruct-GPTQ-Int8,7B,Image-Text-to-Text,2024-09-21,5800,7,21
+Qwen/Qwen2-VL-2B-Instruct-GPTQ-Int4,2B,Image-Text-to-Text,2024-09-21,1630,7,22
+Qwen/Qwen2-VL-2B-Instruct-GPTQ-Int8,2B,Image-Text-to-Text,2024-09-21,1230,7,23
+Qwen/Qwen2-VL-2B-Instruct-AWQ,2B,Image-Text-to-Text,2024-09-21,2620,7,24
+Qwen/Qwen2-VL-7B-Instruct-GPTQ-Int4,7B,Image-Text-to-Text,2024-09-21,10200,7,25
+Qwen/Qwen2.5-32B,32B,Text Generation,2024-09-20,385000,7,26
+Qwen/Qwen2.5-14B,14B,Text Generation,2024-09-20,300000,7,27
+Qwen/Qwen2.5-3B,3B,Text Generation,2024-09-20,442000,7,28
+Qwen/Qwen2.5-72B-Instruct-GGUF,72B,Text Generation,2024-09-20,1120,7,29
+Qwen/Qwen2.5-32B-Instruct-GGUF,32B,Text Generation,2024-09-20,2110,8,0
+Qwen/Qwen2.5-14B-Instruct-GGUF,14B,Text Generation,2024-09-20,4010,8,1
+Qwen/Qwen2.5-7B-Instruct-GGUF,7B,Text Generation,2024-09-20,18200,8,2
+Qwen/Qwen2.5-3B-Instruct-GGUF,3B,Text Generation,2024-09-20,45600,8,3
+Qwen/Qwen2.5-1.5B-Instruct-GGUF,1.5B,Text Generation,2024-09-20,62400,8,4
+Qwen/Qwen2.5-0.5B-Instruct-GGUF,0.5B,Text Generation,2024-09-20,33600,8,5
+Qwen/Qwen2.5-0.5B-Instruct-GPTQ-Int4,0.5B,Text Generation,2024-09-19,2940,8,6
+Qwen/Qwen2-Math-RM-72B,72B,Text Classification,2024-09-18,2,8,7
+Qwen/Qwen2-7B-Instruct-MLX,7B,Text Generation,2024-09-18,1160,8,8
+Qwen/Qwen2-Math-72B-Instruct,72B,Text Generation,2024-09-13,1250,8,9
+Qwen/Qwen2-0.5B-Instruct-GPTQ-Int4,0.5B,Text Generation,2024-08-21,2,8,10
+Qwen/Qwen2-0.5B-Instruct-GPTQ-Int8,0.5B,Text Generation,2024-08-21,1050,8,11
+Qwen/Qwen2-0.5B-Instruct-AWQ,0.5B,Text Generation,2024-08-21,1360,8,12
+Qwen/Qwen2-1.5B-Instruct-GPTQ-Int4,1.5B,Text Generation,2024-08-21,22400,8,13
+Qwen/Qwen2-1.5B-Instruct-GPTQ-Int8,1.5B,Text Generation,2024-08-21,1290,8,14
+Qwen/Qwen2-1.5B-Instruct-AWQ,1.5B,Text Generation,2024-08-21,22400,8,15
+Qwen/Qwen2-57B-A14B-Instruct-GPTQ-Int4,57B,Text Generation,2024-08-21,2,8,16
+Qwen/Qwen2-7B-Instruct-GPTQ-Int4,7B,Text Generation,2024-08-21,2130,8,17
+Qwen/Qwen2-7B-Instruct-GPTQ-Int8,7B,Text Generation,2024-08-21,21600,8,18
+Qwen/Qwen2-7B-Instruct-AWQ,7B,Text Generation,2024-08-21,2840,8,19
+Qwen/Qwen2-0.5B-Instruct-GGUF,0.5B,Text Generation,2024-08-21,7550,8,20
+Qwen/Qwen2-7B-Instruct,7B,Text Generation,2024-08-21,227000,8,21
+Qwen/Qwen2-7B-Instruct-GGUF,7B,Text Generation,2024-08-21,5550,8,22
+Qwen/Qwen2-72B-Instruct-GPTQ-Int4,72B,Text Generation,2024-08-21,4390,8,23
+Qwen/Qwen2-72B-Instruct-GPTQ-Int8,72B,Text Generation,2024-08-21,2,8,24
+Qwen/Qwen2-57B-A14B-Instruct,57B,Text Generation,2024-08-21,15100,8,25
+Qwen/Qwen2-0.5B-Instruct,0.5B,Text Generation,2024-08-21,261000,8,26
+Qwen/Qwen2-72B-Instruct-AWQ,72B,Text Generation,2024-08-21,1170,8,27
+Qwen/Qwen2-Math-7B-Instruct,7B,Text Generation,2024-08-12,2620,8,28
+Qwen/Qwen2-Math-1.5B-Instruct,1.5B,Text Generation,2024-08-12,1680,8,29
+Qwen/Qwen2-Math-1.5B,1.5B,Text Generation,2024-08-08,1800,9,0
+Qwen/Qwen2-Math-72B,72B,Text Generation,2024-08-08,2,9,1
+Qwen/Qwen2-Math-7B,7B,Text Generation,2024-08-08,3480,9,2
+Qwen/Qwen2-1.5B-Instruct-GGUF,1.5B,Text Generation,2024-06-18,6500,9,3
+Qwen/Qwen2-72B-Instruct-GGUF,72B,Text Generation,2024-06-17,2,9,4
+Qwen/Qwen2-57B-A14B-Instruct-GGUF,57B,Text Generation,2024-06-17,2,9,5
+Qwen/Qwen2-57B-A14B,57B,Text Generation,2024-06-16,11400,9,6
+Qwen/Qwen1.5-MoE-A2.7B-Chat-GPTQ-Int4,2.7B,Text Generation,2024-06-09,3200,9,7
+Qwen/Qwen2-7B,7B,Text Generation,2024-06-06,68300,9,8
+Qwen/Qwen2-1.5B-Instruct,1.5B,Text Generation,2024-06-06,765000,9,9
+Qwen/Qwen2-1.5B,1.5B,Text Generation,2024-06-06,84100,9,10
+Qwen/Qwen2-1.5B-Instruct-MLX,1.5B,Text Generation,2024-06-06,2,9,11
+Qwen/Qwen2-0.5B-Instruct-MLX,0.5B,Text Generation,2024-06-06,1410,9,12
+Qwen/CodeQwen1.5-7B,7B,Text Generation,2024-05-13,2640,9,13
+Qwen/Qwen1.5-32B-Chat-AWQ,32B,Text Generation,2024-04-30,1,9,14
+Qwen/Qwen1.5-MoE-A2.7B-Chat,2.7B,Text Generation,2024-04-30,31300,9,15
+Qwen/Qwen1.5-7B-Chat-GPTQ-Int8,7B,Text Generation,2024-04-30,1090,9,16
+Qwen/Qwen1.5-7B-Chat-GPTQ-Int4,7B,Text Generation,2024-04-30,1170,9,17
+Qwen/Qwen1.5-7B-Chat-AWQ,7B,Text Generation,2024-04-30,1500,9,18
+Qwen/Qwen1.5-72B-Chat-GPTQ-Int8,72B,Text Generation,2024-04-30,1,9,19
+Qwen/Qwen1.5-72B-Chat-GPTQ-Int4,72B,Text Generation,2024-04-30,2630,9,20
+Qwen/Qwen1.5-72B-Chat-AWQ,72B,Text Generation,2024-04-30,1110,9,21
+Qwen/Qwen1.5-4B-Chat-GPTQ-Int8,4B,Text Generation,2024-04-30,1,9,22
+Qwen/Qwen1.5-4B-Chat-GPTQ-Int4,4B,Text Generation,2024-04-30,1,9,23
+Qwen/Qwen1.5-4B-Chat-AWQ,4B,Text Generation,2024-04-30,1830,9,24
+Qwen/Qwen1.5-4B-Chat,4B,Text Generation,2024-04-30,143000,9,25
+Qwen/Qwen1.5-7B-Chat,7B,Text Generation,2024-04-30,19700,9,26
+Qwen/Qwen1.5-32B-Chat-GPTQ-Int4,32B,Text Generation,2024-04-30,2460,9,27
+Qwen/Qwen1.5-32B-Chat,32B,Text Generation,2024-04-30,26600,9,28
+Qwen/Qwen1.5-14B-Chat-GPTQ-Int8,14B,Text Generation,2024-04-30,1,9,29
+Qwen/Qwen1.5-14B-Chat-GPTQ-Int4,14B,Text Generation,2024-04-30,1280,10,0
+Qwen/Qwen1.5-14B-Chat-AWQ,14B,Text Generation,2024-04-30,1550,10,1
+Qwen/Qwen1.5-14B-Chat,14B,Text Generation,2024-04-30,60100,10,2
+Qwen/Qwen1.5-110B-Chat-GPTQ-Int4,110B,Text Generation,2024-04-30,1040,10,3
+Qwen/Qwen1.5-110B-Chat-AWQ,110B,Text Generation,2024-04-30,1,10,4
+Qwen/Qwen1.5-110B-Chat,110B,Text Generation,2024-04-30,3610,10,5
+Qwen/Qwen1.5-1.8B-Chat-GPTQ-Int8,1.8B,Text Generation,2024-04-30,1,10,6
+Qwen/Qwen1.5-1.8B-Chat-GPTQ-Int4,1.8B,Text Generation,2024-04-30,1100,10,7
+Qwen/Qwen1.5-1.8B-Chat,1.8B,Text Generation,2024-04-30,44400,10,8
+Qwen/Qwen1.5-0.5B-Chat-GPTQ-Int8,0.5B,Text Generation,2024-04-30,1100,10,9
+Qwen/Qwen1.5-0.5B-Chat-GPTQ-Int4,0.5B,Text Generation,2024-04-30,1040,10,10
+Qwen/Qwen1.5-0.5B-Chat-AWQ,0.5B,Text Generation,2024-04-30,1,10,11
+Qwen/Qwen1.5-0.5B-Chat,0.5B,Text Generation,2024-04-30,156000,10,12
+Qwen/CodeQwen1.5-7B-Chat-AWQ,7B,Text Generation,2024-04-30,1,10,13
+Qwen/CodeQwen1.5-7B-Chat,7B,Text Generation,2024-04-30,3830,10,14
+Qwen/Qwen1.5-1.8B-Chat-AWQ,1.8B,Text Generation,2024-04-30,1,10,15
+Qwen/Qwen1.5-110B-Chat-GGUF,110B,Text Generation,2024-04-30,1,10,16
+Qwen/Qwen1.5-110B,110B,Text Generation,2024-04-26,1450,10,17
+Qwen/CodeQwen1.5-7B-AWQ,7B,Text Generation,2024-04-23,1,10,18
+Qwen/CodeQwen1.5-7B-Chat-GGUF,7B,Text Generation,2024-04-23,1330,10,19
+Qwen/Qwen1.5-MoE-A2.7B,2.7B,Text Generation,2024-04-18,46600,10,20
+Qwen/Qwen1.5-72B-Chat-GGUF,72B,Text Generation,2024-04-09,1,10,21
+Qwen/Qwen1.5-14B-Chat-GGUF,14B,Text Generation,2024-04-09,1540,10,22
+Qwen/Qwen1.5-7B-Chat-GGUF,7B,Text Generation,2024-04-09,3470,10,23
+Qwen/Qwen1.5-4B-Chat-GGUF,4B,Text Generation,2024-04-09,1540,10,24
+Qwen/Qwen1.5-1.8B-Chat-GGUF,1.8B,Text Generation,2024-04-09,1840,10,25
+Qwen/Qwen1.5-0.5B-Chat-GGUF,0.5B,Text Generation,2024-04-09,4400,10,26
+Qwen/Qwen1.5-32B-Chat-GGUF,32B,Text Generation,2024-04-09,1,10,27
+Qwen/Qwen1.5-32B,32B,Text Generation,2024-04-05,14800,10,28
+Qwen/Qwen1.5-72B,72B,Text Generation,2024-04-05,9930,10,29
+Qwen/Qwen1.5-14B,14B,Text Generation,2024-04-05,50500,11,0
+Qwen/Qwen1.5-7B,7B,Text Generation,2024-04-05,83700,11,1
+Qwen/Qwen1.5-4B,4B,Text Generation,2024-04-05,20900,11,2
+Qwen/Qwen1.5-1.8B,1.8B,Text Generation,2024-04-05,25800,11,3
+Qwen/Qwen1.5-0.5B,0.5B,Text Generation,2024-04-05,44100,11,4
+Qwen/Qwen-7B-Chat,7B,Text Generation,2024-03-19,67700,11,5
+Qwen/Qwen-VL-Chat-Int4,4B,Text Generation,2024-01-25,2530,11,6
+Qwen/Qwen-VL-Chat,—,Text Generation,2024-01-25,97500,11,7
+Qwen/Qwen-VL,—,Text Generation,2024-01-25,62400,11,8
+Qwen/Qwen-tokenizer,—,Text Generation,2024-01-13,13,11,9
+Qwen/Qwen-72B-Chat-Int4,72B,Text Generation,2024-01-04,72,11,10
+Qwen/Qwen-7B,7B,Text Generation,2024-01-04,12700,11,11
+Qwen/Qwen-72B-Chat-Int8,72B,Text Generation,2024-01-04,72,11,12
+Qwen/Qwen-7B-Chat-Int4,7B,Text Generation,2024-01-04,1720,11,13
+Qwen/Qwen-7B-Chat-Int8,7B,Text Generation,2023-12-13,1080,11,14
+Qwen/Qwen-14B-Chat-Int8,14B,Text Generation,2023-12-13,14,11,15
+Qwen/Qwen-14B-Chat-Int4,14B,Text Generation,2023-12-13,1140,11,16
+Qwen/Qwen-14B-Chat,14B,Text Generation,2023-12-13,3330,11,17
+Qwen/Qwen-14B,14B,Text Generation,2023-12-13,4160,11,18
+Qwen/Qwen-1_8B-Chat-Int8,8B,Text Generation,2023-12-13,1,11,19
+Qwen/Qwen-1_8B-Chat-Int4,8B,Text Generation,2023-12-13,1170,11,20
+Qwen/Qwen-1_8B-Chat,8B,Text Generation,2023-12-13,7070,11,21
+Qwen/Qwen-1_8B,8B,Text Generation,2023-12-13,4640,11,22

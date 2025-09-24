@@ -1,0 +1,1015 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qwen系列模型发展历史时间线</title>
+    <style>
+        /* Apple风格配色配置 */
+        :root {
+            --bg-primary: #f5f5f7;
+            --bg-secondary: #ffffff;
+            --text-primary: #1d1d1f;
+            --text-secondary: #86868b;
+            --border-color: #d2d2d7;
+            --shadow-light: 0 1px 3px rgba(0,0,0,0.1);
+            --shadow-medium: 0 4px 12px rgba(0,0,0,0.15);
+
+            /* 模型类型颜色配置 */
+            --color-text-gen: #0071e3;
+            --color-image-text: #00a86b;
+            --color-feature-ext: #ff6b35;
+            --color-text-class: #5856d6;
+            --color-any-to-any: #af52de;
+            --color-audio-text: #ff9500;
+            --color-image-img: #ff2d55;
+            --color-text-rank: #8e8e93;
+            --color-default: #c7c7cc;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.5;
+            overflow-x: auto;
+        }
+
+        .container {
+            max-width: 1600px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            min-width: 1200px;
+        }
+
+        .main-card {
+            background: var(--bg-secondary);
+            border-radius: 18px;
+            box-shadow: var(--shadow-medium);
+            overflow: hidden;
+            border: 1px solid var(--border-color);
+        }
+
+        .header {
+            padding: 40px;
+            background: linear-gradient(135deg, #f5f5f7 0%, #ffffff 100%);
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .header h1 {
+            font-size: 48px;
+            font-weight: 600;
+            color: var(--text-primary);
+            margin-bottom: 12px;
+            letter-spacing: -0.02em;
+        }
+
+        .header .subtitle {
+            font-size: 21px;
+            color: var(--text-secondary);
+            margin-bottom: 30px;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 24px;
+            margin-top: 30px;
+        }
+
+        .stat-card {
+            background: rgba(255, 255, 255, 0.8);
+            border-radius: 12px;
+            padding: 20px;
+            text-align: center;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(210, 210, 215, 0.3);
+        }
+
+        .stat-number {
+            font-size: 32px;
+            font-weight: 600;
+            color: var(--text-primary);
+            display: block;
+        }
+
+        .stat-label {
+            font-size: 14px;
+            color: var(--text-secondary);
+            margin-top: 4px;
+        }
+
+        /* 筛选控制区域 */
+        .controls {
+            padding: 30px 40px;
+            background: var(--bg-secondary);
+            border-bottom: 1px solid var(--border-color);
+            display: flex;
+            gap: 24px;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+
+        .filter-group {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .filter-label {
+            font-size: 14px;
+            font-weight: 500;
+            color: var(--text-secondary);
+        }
+
+        .filter-select {
+            padding: 10px 16px;
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            background: var(--bg-secondary);
+            font-size: 14px;
+            color: var(--text-primary);
+            min-width: 180px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .filter-select:hover {
+            border-color: var(--color-text-gen);
+        }
+
+        .filter-select:focus {
+            outline: none;
+            border-color: var(--color-text-gen);
+            box-shadow: 0 0 0 3px rgba(0, 113, 227, 0.1);
+        }
+
+        .reset-button {
+            padding: 10px 20px;
+            background: var(--color-text-gen);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 14px;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            margin-left: auto;
+        }
+
+        .reset-button:hover {
+            background: #0051b8;
+            transform: translateY(-1px);
+        }
+
+        /* 时间线主体 - 网格化布局 */
+        .timeline-container {
+            padding: 40px;
+            background: var(--bg-secondary);
+            overflow-x: auto;
+        }
+
+        .timeline-grid {
+            display: grid;
+            grid-template-columns: 200px 1fr;
+            grid-auto-rows: minmax(80px, auto);
+            gap: 1px;
+            background: var(--border-color);
+            border-radius: 12px;
+            overflow: hidden;
+        }
+
+        .timeline-header {
+            background: linear-gradient(135deg, #f5f5f7 0%, #ffffff 100%);
+            padding: 20px;
+            font-weight: 600;
+            color: var(--text-primary);
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .swimlane-header {
+            background: var(--bg-secondary);
+            padding: 16px 20px;
+            font-weight: 500;
+            color: var(--text-primary);
+            display: flex;
+            align-items: center;
+            border-right: 1px solid var(--border-color);
+            position: relative;
+        }
+
+        .swimlane-header::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            width: 4px;
+            background: var(--lane-color, var(--color-default));
+        }
+
+        .swimlane-content {
+            background: var(--bg-secondary);
+            padding: 16px;
+            min-height: 80px;
+            position: relative;
+        }
+
+        /* 时间轴网格 - 按月分组 */
+        .time-group {
+            display: grid;
+            grid-template-columns: 120px 1fr;
+            gap: 16px;
+            margin-bottom: 24px;
+            align-items: start;
+        }
+
+        .time-label {
+            background: linear-gradient(135deg, #f5f5f7 0%, #ffffff 100%);
+            padding: 12px 16px;
+            border-radius: 8px;
+            font-size: 14px;
+            font-weight: 600;
+            color: var(--text-primary);
+            text-align: center;
+            border: 1px solid var(--border-color);
+            position: sticky;
+            top: 16px;
+            height: fit-content;
+        }
+
+        .models-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            align-content: start;
+        }
+
+        /* 荧光笔高亮组容器 */
+        .highlight-group {
+            position: relative;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin: 4px;
+            padding: 8px;
+            background: var(--highlight-color, var(--color-default));
+            border-radius: 12px;
+            opacity: 0.9;
+            backdrop-filter: blur(2px);
+            border: 1px solid var(--highlight-color, var(--color-default));
+        }
+
+        .highlight-group::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: var(--highlight-color, var(--color-default));
+            opacity: 0.15;
+            border-radius: 12px;
+            z-index: -1;
+        }
+
+        /* 类型标签 */
+        .type-badge {
+            position: absolute;
+            top: -6px;
+            left: 8px;
+            background: var(--highlight-color, var(--color-default));
+            color: white;
+            font-size: 10px;
+            font-weight: 600;
+            padding: 2px 8px;
+            border-radius: 10px;
+            z-index: 10;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+            white-space: nowrap;
+        }
+
+        /* 模型卡片在高亮组中的样式调整 */
+        .highlight-group .model-card {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            flex: 0 0 auto;
+            min-width: 180px;
+        }
+
+        .highlight-group .model-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+            z-index: 5;
+        }
+
+        /* 高亮组颜色变量 */
+        .highlight-text-gen { --highlight-color: var(--color-text-gen); }
+        .highlight-image-text { --highlight-color: var(--color-image-text); }
+        .highlight-feature-ext { --highlight-color: var(--color-feature-ext); }
+        .highlight-text-class { --highlight-color: var(--color-text-class); }
+        .highlight-any-to-any { --highlight-color: var(--color-any-to-any); }
+        .highlight-audio-text { --highlight-color: var(--color-audio-text); }
+        .highlight-image-img { --highlight-color: var(--color-image-img); }
+        .highlight-text-rank { --highlight-color: var(--color-text-rank); }
+        .highlight-default { --highlight-color: var(--color-default); }
+
+        /* 2025云栖大会发布模型的虚线框标记 */
+        .yunqi-conference-group {
+            position: relative;
+            border: 2px dashed #ff6b35;
+            border-radius: 16px;
+            padding: 16px;
+            margin: 8px 4px;
+            background: rgba(255, 107, 53, 0.03);
+            backdrop-filter: blur(1px);
+        }
+
+        .yunqi-conference-group::before {
+            content: '2025云栖大会';
+            position: absolute;
+            top: -12px;
+            left: 16px;
+            background: #ff6b35;
+            color: white;
+            font-size: 11px;
+            font-weight: 600;
+            padding: 4px 12px;
+            border-radius: 12px;
+            z-index: 20;
+            box-shadow: 0 2px 6px rgba(255, 107, 53, 0.3);
+            white-space: nowrap;
+        }
+
+        .yunqi-conference-group .models-grid {
+            margin: 0;
+        }
+
+        .yunqi-conference-group .highlight-group {
+            margin: 2px;
+        }
+
+        /* 模型卡片 */
+        .model-card {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 12px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            text-decoration: none;
+            color: inherit;
+            position: relative;
+            overflow: hidden;
+            min-height: 80px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .model-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 3px;
+            background: var(--card-color, var(--color-default));
+            opacity: 0.8;
+        }
+
+        .model-card:hover {
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-medium);
+            border-color: var(--card-color, var(--border-color));
+        }
+
+        .model-name {
+            font-size: 12px;
+            font-weight: 500;
+            color: var(--text-primary);
+            margin-bottom: 8px;
+            line-height: 1.3;
+            word-break: break-word;
+        }
+
+        .model-meta {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 10px;
+            color: var(--text-secondary);
+            margin-top: auto;
+        }
+
+        .model-size {
+            background: rgba(0, 113, 227, 0.1);
+            color: var(--color-text-gen);
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-weight: 500;
+        }
+
+        .model-downloads {
+            font-weight: 500;
+        }
+
+        /* 图例 */
+        .legend {
+            padding: 24px 40px;
+            background: var(--bg-primary);
+            border-top: 1px solid var(--border-color);
+            display: flex;
+            flex-wrap: wrap;
+            gap: 24px;
+            align-items: center;
+        }
+
+        .legend-title {
+            font-size: 14px;
+            font-weight: 600;
+            color: var(--text-primary);
+            margin-right: 16px;
+        }
+
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 12px;
+            color: var(--text-secondary);
+        }
+
+        .legend-color {
+            width: 16px;
+            height: 16px;
+            border-radius: 4px;
+            border: 1px solid var(--border-color);
+        }
+
+        /* 加载和空状态 */
+        .loading {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 60px;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .loading-spinner {
+            width: 40px;
+            height: 40px;
+            border: 3px solid var(--border-color);
+            border-top: 3px solid var(--color-text-gen);
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .loading-text {
+            font-size: 16px;
+            color: var(--text-secondary);
+        }
+
+        .empty-state {
+            text-align: center;
+            padding: 60px 20px;
+            color: var(--text-secondary);
+        }
+
+        .empty-state .icon {
+            font-size: 48px;
+            margin-bottom: 16px;
+            opacity: 0.5;
+        }
+
+        .empty-state .text {
+            font-size: 16px;
+            margin-bottom: 8px;
+        }
+
+        .empty-state .subtext {
+            font-size: 14px;
+            opacity: 0.7;
+        }
+
+        /* 颜色配置类 */
+        .type-text-gen { --card-color: var(--color-text-gen); }
+        .type-image-text { --card-color: var(--color-image-text); }
+        .type-feature-ext { --card-color: var(--color-feature-ext); }
+        .type-text-class { --card-color: var(--color-text-class); }
+        .type-any-to-any { --card-color: var(--color-any-to-any); }
+        .type-audio-text { --card-color: var(--color-audio-text); }
+        .type-image-img { --card-color: var(--color-image-img); }
+        .type-text-rank { --card-color: var(--color-text-rank); }
+        .type-default { --card-color: var(--color-default); }
+
+        /* 泳道颜色 */
+        .lane-text-gen { --lane-color: var(--color-text-gen); }
+        .lane-image-text { --lane-color: var(--color-image-text); }
+        .lane-feature-ext { --lane-color: var(--color-feature-ext); }
+        .lane-text-class { --lane-color: var(--color-text-class); }
+        .lane-any-to-any { --lane-color: var(--color-any-to-any); }
+        .lane-audio-text { --lane-color: var(--color-audio-text); }
+        .lane-image-img { --lane-color: var(--color-image-img); }
+        .lane-text-rank { --lane-color: var(--color-text-rank); }
+        .lane-default { --lane-color: var(--color-default); }
+
+        /* 响应式调整 */
+        @media (max-width: 1400px) {
+            .container {
+                padding: 20px 10px;
+            }
+
+            .header {
+                padding: 30px 20px;
+            }
+
+            .header h1 {
+                font-size: 36px;
+            }
+
+            .controls {
+                padding: 20px;
+            }
+
+            .timeline-container {
+                padding: 20px;
+            }
+        }
+
+        /* Footer样式 */
+        .footer {
+            text-align: center;
+            padding: 30px 20px;
+            margin-top: 40px;
+        }
+
+        .footer-logo {
+            max-width: 200px;
+            height: auto;
+            opacity: 0.8;
+            transition: opacity 0.2s ease;
+        }
+
+        .footer-logo:hover {
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="main-card">
+            <!-- Header -->
+            <div class="header">
+                <h1>Qwen系列模型发展历史</h1>
+                <div class="subtitle">基于HuggingFace官方数据的完整时间线 (时间为最后更新时间, 并非发布时间) <b>by Karminski-牙医</b></div>
+                <div class="stats-grid" id="stats-grid">
+                    <div class="loading">
+                        <div class="loading-spinner"></div>
+                        <div class="loading-text">正在加载数据...</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Controls -->
+            <div class="controls">
+                <div class="filter-group">
+                    <div class="filter-label">模型类型</div>
+                    <select id="type-filter" class="filter-select">
+                        <option value="">全部类型</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <div class="filter-label">模型大小</div>
+                    <select id="size-filter" class="filter-select">
+                        <option value="">全部大小</option>
+                    </select>
+                </div>
+                <button id="reset-filters" class="reset-button">重置筛选</button>
+            </div>
+
+            <!-- Timeline -->
+            <div class="timeline-container">
+                <div class="loading" id="loading">
+                    <div class="loading-spinner"></div>
+                    <div class="loading-text">正在加载模型数据...</div>
+                </div>
+
+                <div id="timeline-content" style="display: none;">
+                    <!-- 时间轴内容将通过JavaScript动态生成 -->
+                </div>
+
+                <div class="empty-state" id="empty-state" style="display: none;">
+                    <div class="icon">🔍</div>
+                    <div class="text">没有找到符合条件的模型</div>
+                    <div class="subtext">请尝试调整筛选条件</div>
+                </div>
+            </div>
+
+            <!-- Legend -->
+            <div class="legend" id="legend">
+                <div class="legend-title">模型类型</div>
+                <!-- 图例项将通过JavaScript动态生成 -->
+            </div>
+        </div>
+        
+        <!-- Footer -->
+        <div class="footer">
+            <img src="assets/images/kcores-llm-arena-logo-black.png" alt="KCores LLM Arena" class="footer-logo">
+        </div>
+    </div>
+
+    <script>
+        // Qwen时间线应用
+        class QwenTimeline {
+            constructor() {
+                this.timelineData = null;
+                this.filteredModels = [];
+                this.currentFilters = { type: '', size: '' };
+
+                // 2025云栖大会发布的模型列表
+                this.yunqiConferenceModels = new Set([
+                    'Qwen/Qwen3-Max',
+                    'Qwen/Qwen3-VL-235B-A22B-Thinking',
+                    'Qwen/Qwen3-VL-235B-A22B-Instruct',
+                    'Qwen/Qwen3Guard-Stream-8B',
+                    'Qwen/Qwen3Guard-Stream-0.6B',
+                    'Qwen/Qwen3Guard-Stream-4B',
+                    'Qwen/Qwen3Guard-Gen-0.6B',
+                    'Qwen/Qwen3Guard-Gen-8B',
+                    'Qwen/Qwen3Guard-Gen-4B',
+                    'Qwen/Qwen3-Omni-30B-A3B-Instruct',
+                    'Qwen/Qwen3-Omni-30B-A3B-Thinking',
+                    'Qwen/Qwen3-Omni-30B-A3B-Captioner',
+                    'Qwen/Qwen-Image-Edit-2509'
+                ]);
+
+                // 颜色配置
+                this.colorConfig = {
+                    'Text Generation': '#0071e3',
+                    'Image-Text-to-Text': '#00a86b',
+                    'Feature Extraction': '#ff6b35',
+                    'Text Classification': '#5856d6',
+                    'Any-to-Any': '#af52de',
+                    'Audio-Text-to-Text': '#ff9500',
+                    'Image-to-Image': '#ff2d55',
+                    'Text Ranking': '#8e8e93',
+                    '------': '#c7c7cc'
+                };
+
+                this.init();
+            }
+
+            async init() {
+                try {
+                    await this.loadData();
+                    this.setupEventListeners();
+                    this.render();
+                } catch (error) {
+                    console.error('初始化失败:', error);
+                    this.showError('数据加载失败，请刷新页面重试');
+                }
+            }
+
+            async loadData() {
+                const response = await fetch('qwen_models_timeline.json');
+                this.timelineData = await response.json();
+
+                console.log('成功加载时间线数据:', this.timelineData.metadata);
+                this.filteredModels = [...this.timelineData.models];
+            }
+
+            setupEventListeners() {
+                const typeFilter = document.getElementById('type-filter');
+                const sizeFilter = document.getElementById('size-filter');
+                const resetButton = document.getElementById('reset-filters');
+
+                typeFilter.addEventListener('change', (e) => {
+                    this.currentFilters.type = e.target.value;
+                    this.applyFilters();
+                });
+
+                sizeFilter.addEventListener('change', (e) => {
+                    this.currentFilters.size = e.target.value;
+                    this.applyFilters();
+                });
+
+                resetButton.addEventListener('click', () => {
+                    this.resetFilters();
+                });
+            }
+
+            render() {
+                this.hideLoading();
+                this.renderStats();
+                this.renderFilters();
+                this.renderLegend();
+                this.renderTimeline();
+            }
+
+            renderStats() {
+                const stats = this.timelineData.statistics;
+                const statsGrid = document.getElementById('stats-grid');
+
+                const statsData = [
+                    { number: this.timelineData.metadata.total_models, label: '总模型数' },
+                    { number: Object.keys(stats.types).length, label: '模型类型' },
+                    { number: Object.keys(stats.sizes).length, label: '参数规模' },
+                    { number: Math.round(stats.total_downloads / 1000000), label: '总下载量(M)', suffix: 'M' }
+                ];
+
+                statsGrid.innerHTML = statsData.map(stat => `
+                    <div class="stat-card">
+                        <span class="stat-number">${stat.number}${stat.suffix || ''}</span>
+                        <div class="stat-label">${stat.label}</div>
+                    </div>
+                `).join('');
+            }
+
+            renderFilters() {
+                const typeFilter = document.getElementById('type-filter');
+                const sizeFilter = document.getElementById('size-filter');
+
+                // 模型类型选项
+                const types = Object.keys(this.timelineData.statistics.types).sort();
+                typeFilter.innerHTML = '<option value="">全部类型</option>' +
+                    types.map(type => `
+                        <option value="${type}">${type} (${this.timelineData.statistics.types[type]})</option>
+                    `).join('');
+
+                // 模型大小选项
+                const sizes = Object.keys(this.timelineData.statistics.sizes).sort((a, b) => {
+                    const aNum = parseFloat(a.replace('B', ''));
+                    const bNum = parseFloat(b.replace('B', ''));
+                    return aNum - bNum;
+                });
+
+                sizeFilter.innerHTML = '<option value="">全部大小</option>' +
+                    sizes.map(size => `
+                        <option value="${size}">${size} (${this.timelineData.statistics.sizes[size]})</option>
+                    `).join('');
+            }
+
+            renderLegend() {
+                const legend = document.getElementById('legend');
+                const types = Object.keys(this.colorConfig);
+
+                legend.innerHTML = '<div class="legend-title">模型类型</div>' +
+                    types.map(type => `
+                        <div class="legend-item">
+                            <div class="legend-color" style="background-color: ${this.colorConfig[type]};"></div>
+                            <span>${type}</span>
+                        </div>
+                    `).join('');
+            }
+
+            renderTimeline() {
+                const models = this.filteredModels.length > 0 ? this.filteredModels : this.timelineData.models;
+                const content = document.getElementById('timeline-content');
+
+                // 按时间分组模型
+                const timeGroups = this.groupModelsByTime(models);
+
+                // 渲染时间线内容
+                content.innerHTML = this.renderTimeGroups(timeGroups);
+            }
+
+            groupModelsByTime(models) {
+                const groups = {};
+
+                models.forEach(model => {
+                    // 标准化时间键
+                    let timeKey;
+                    if (model.update_time_standardized.startsWith('0')) {
+                        timeKey = 'recent';
+                    } else if (model.update_time_standardized === '9999-99-99') {
+                        timeKey = 'unknown';
+                    } else {
+                        timeKey = model.update_time_standardized.substring(0, 7); // YYYY-MM
+                    }
+
+                    if (!groups[timeKey]) {
+                        groups[timeKey] = {
+                            label: this.formatTimeLabel(timeKey),
+                            models: [],
+                            isRecent: timeKey === 'recent',
+                            isUnknown: timeKey === 'unknown'
+                        };
+                    }
+
+                    groups[timeKey].models.push(model);
+                });
+
+                return groups;
+            }
+
+            renderTimeGroups(timeGroups) {
+                const timeKeys = Object.keys(timeGroups).sort((a, b) => {
+                    if (a === 'recent') return -1;
+                    if (b === 'recent') return 1;
+                    if (a === 'unknown') return 1;
+                    if (b === 'unknown') return -1;
+                    return b.localeCompare(a); // 从新到旧
+                });
+
+                return timeKeys.map(timeKey => {
+                    const group = timeGroups[timeKey];
+
+                    return `
+                        <div class="time-group">
+                            <div class="time-label ${group.isRecent ? 'recent' : ''} ${group.isUnknown ? 'unknown' : ''}">
+                                ${group.label}
+                            </div>
+                            <div class="models-grid">
+                                ${this.renderModelsWithHighlight(group.models)}
+                            </div>
+                        </div>
+                    `;
+                }).join('');
+            }
+
+            // 修改：渲染带荧光笔效果的模型
+            renderModelsWithHighlight(models) {
+                const highlightGroups = this.groupConsecutiveTypes(models);
+                const yunqiGroups = [];
+                const normalGroups = [];
+                
+                // 分离云栖大会模型和普通模型
+                highlightGroups.forEach(group => {
+                    const hasYunqiModels = group.models.some(model => 
+                        this.yunqiConferenceModels.has(model.name)
+                    );
+                    
+                    if (hasYunqiModels) {
+                        // 将云栖模型和非云栖模型分开
+                        const yunqiModels = group.models.filter(model => 
+                            this.yunqiConferenceModels.has(model.name)
+                        );
+                        const normalModelsInGroup = group.models.filter(model => 
+                            !this.yunqiConferenceModels.has(model.name)
+                        );
+                        
+                        if (yunqiModels.length > 0) {
+                            yunqiGroups.push({
+                                type: group.type,
+                                models: yunqiModels
+                            });
+                        }
+                        
+                        if (normalModelsInGroup.length > 0) {
+                            normalGroups.push({
+                                type: group.type,
+                                models: normalModelsInGroup
+                            });
+                        }
+                    } else {
+                        normalGroups.push(group);
+                    }
+                });
+                
+                // 渲染云栖大会模型组
+                const yunqiHtml = yunqiGroups.length > 0 ? 
+                    `<div class="yunqi-conference-group">
+                        <div class="models-grid">
+                            ${yunqiGroups.map(group => this.renderHighlightGroup(group)).join('')}
+                        </div>
+                    </div>` : '';
+                
+                // 渲染普通模型组
+                const normalHtml = normalGroups.map(group => this.renderHighlightGroup(group)).join('');
+                
+                return yunqiHtml + normalHtml;
+            }
+
+            // 新增：渲染单个高亮组
+            renderHighlightGroup(group) {
+                const cardColor = this.colorConfig[group.type] || this.colorConfig['------'];
+                const highlightClass = `highlight-${group.type.toLowerCase().replace(/\s+/g, '-').replace(/[^a-z0-9-]/g, '')}`;
+                
+                const cardsHtml = group.models.map(model => 
+                    this.renderModelCard(model, cardColor)
+                ).join('');
+                
+                return `
+                    <div class="highlight-group ${highlightClass}" style="--highlight-color: ${cardColor};">
+                        <div class="type-badge" style="background: ${cardColor};">
+                            ${group.type}
+                        </div>
+                        ${cardsHtml}
+                    </div>
+                `;
+            }
+
+            // 新增：检测连续相同类型的模型
+            groupConsecutiveTypes(models) {
+                const groups = [];
+                let currentGroup = null;
+
+                models.forEach(model => {
+                    if (!currentGroup || currentGroup.type !== model.type) {
+                        // 开始新的类型组
+                        currentGroup = {
+                            type: model.type,
+                            models: [model]
+                        };
+                        groups.push(currentGroup);
+                    } else {
+                        // 添加到当前类型组
+                        currentGroup.models.push(model);
+                    }
+                });
+
+                return groups;
+            }
+
+            // 新增：渲染单个模型卡片
+            renderModelCard(model, cardColor) {
+                const sizeText = model.size || '—';
+                
+                return `
+                    <a href="${model.huggingface_url}" target="_blank"
+                       class="model-card type-${model.type.toLowerCase().replace(/\s+/g, '-')}"
+                       style="--card-color: ${cardColor};"
+                       title="${model.name} - ${model.update_time}">
+                        <div class="model-name">${this.truncateName(model.name)}</div>
+                        <div class="model-meta">
+                            <span class="model-size">${sizeText} B</span>
+                            <span class="model-downloads">📥 ${model.downloads}</span>
+                        </div>
+                    </a>
+                `;
+            }
+
+            formatTimeLabel(timeKey) {
+                if (timeKey === 'recent') return '最近发布';
+                if (timeKey === 'unknown') return '时间未知';
+
+                const [year, month] = timeKey.split('-');
+                const monthNames = ['1月', '2月', '3月', '4月', '5月', '6月',
+                                  '7月', '8月', '9月', '10月', '11月', '12月'];
+                return `${year}年${monthNames[parseInt(month) - 1]}`;
+            }
+
+            truncateName(name) {
+                let displayName = name.replace('Qwen/', '');
+                if (displayName.length > 40) {
+                    displayName = displayName.substring(0, 17) + '...';
+                }
+                return displayName;
+            }
+
+            applyFilters() {
+                const models = this.timelineData.models;
+
+                this.filteredModels = models.filter(model => {
+                    const typeMatch = !this.currentFilters.type || model.type === this.currentFilters.type;
+                    const sizeMatch = !this.currentFilters.size || model.size === this.currentFilters.size;
+                    return typeMatch && sizeMatch;
+                });
+
+                this.renderTimeline();
+            }
+
+            resetFilters() {
+                this.currentFilters = { type: '', size: '' };
+                document.getElementById('type-filter').value = '';
+                document.getElementById('size-filter').value = '';
+                this.filteredModels = [];
+                this.renderTimeline();
+            }
+
+            hideLoading() {
+                document.getElementById('loading').style.display = 'none';
+                document.getElementById('timeline-content').style.display = 'block';
+            }
+
+            showError(message) {
+                document.getElementById('loading').innerHTML = `
+                    <div class="empty-state">
+                        <div class="icon">❌</div>
+                        <div class="text">${message}</div>
+                    </div>
+                `;
+            }
+        }
+
+        // 初始化应用
+        document.addEventListener('DOMContentLoaded', () => {
+            new QwenTimeline();
+        });
+    </script>
+</body>
+</html>
